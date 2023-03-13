@@ -1,6 +1,7 @@
 # Getting Started
 
 *Power BI is a self-service business intelligence solution.*
+
 *It is not optimized for large-scale business.*
 
 ## Power BI tools
@@ -75,18 +76,6 @@ Power BI Desktop can be free downloaded from this link under <a href="#mylink">`
 ## Launch Power BI Desktop
 
 ### Navigation
-- Top Ribbons
-  - File
-  - Home
-  - Insert
-  - Modeling
-  - View
-  - Help 
-- Lefthand side: three different view buttons
-  - Report: create and view a report, have page tab in the bottom, dotted line shows the edges of this report page
-  - Data: appear when we have data
-  - Model: tables with relationships
-- Righthand side: panes that are appropriate to the view we are working on
-  - Report View: Filters, Visualizations, Fields
-  - Data View: Fields
-  - Model View: Properties, Fields
+| Top Ribbons | Lefthand side | Righthand side |
+| --- | --- | --- |
+| <ul><li>File</li><li>Home</li><li>Insert</li><li>Modeling</li><li>View</li><li>Help</li></ul> | Three different view buttons:<ul><li>Report: create and view a report, have page tab in the bottom, dotted line shows the edges of this report page</li><li>Data: appear when we have data</li><li>Model: tables with relationships</li></ul> | Panes that are appropriate to the view we are working on:<ul><li>Report View: Filters, Visualizations, Fields</li><li>Data View: Fields</li><li>Model View: Properties, Fields</li></ul> |
