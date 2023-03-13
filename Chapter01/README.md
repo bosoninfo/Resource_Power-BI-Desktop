@@ -1,5 +1,8 @@
 # Getting Started
 
+*Power BI is a self-service business intelligence solution.*
+*It is not optimized for large-scale business.*
+
 ## Power BI tools
 
 ### Microsoft Power BI
@@ -17,10 +20,11 @@
 - Explore data with natural language
 - View dashboards on mobile devices
 - Use specialized templates for SaaS solutions
+*Power BI Service dose not have robust data modeling using the drag-and-drop feature*
 
 ### Power BI Licensing
 - Power BI (free)
-- Power BI Pro (recommended)
+- Power BI Pro (recommended) (60-day free trial)
 - Power BI Premium
 
 | Free Power BI | Power BI Pro |
@@ -67,3 +71,22 @@ Power BI Desktop can be free downloaded from this link under <a href="#mylink">`
 ### Email Workaround
 - Sign up for a Microsoft 365 E5 or E3 trial
 - Use email account from the trial to sign up for Power BI
+
+## Launch Power BI Desktop
+
+### Navigation
+- Top Ribbons
+  - File
+  - Home
+  - Insert
+  - Modeling
+  - View
+  - Help 
+- Lefthand side: three different view buttons
+  - Report: create and view a report, have page tab in the bottom, dotted line shows the edges of this report page
+  - Data: appear when we have data
+  - Model: tables with relationships
+- Righthand side: panes that are appropriate to the view we are working on
+  - Report View: Filters, Visualizations, Fields
+  - Data View: Fields
+  - Model View: Properties, Fields
