@@ -1,4 +1,4 @@
-# Getting Started
+# GETTING STARTED
 
 *Power BI is a self-service business intelligence solution.*
 
