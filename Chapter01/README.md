@@ -1,6 +1,8 @@
 # Getting Started
 
-## Microsoft Power BI
+## Power BI tools
+
+### Microsoft Power BI
 - Power BI Desktop
 - Power BI for mobile
 - Power BI developer tools
@@ -10,13 +12,13 @@
 | :--: | 
 | *data communicate between power bi desktop and power bi* |
 
-## Power BI Services
+### Power BI Services
 - Direct interactive data connections
 - Explore data with natural language
 - View dashboards on mobile devices
 - Use specialized templates for SaaS solutions
 
-## Power BI Licensing
+### Power BI Licensing
 - Power BI (free)
 - Power BI Pro (recommended)
 - Power BI Premium
@@ -29,14 +31,14 @@
 | Data via Power BI service | Direct interactive connection |
 | `Free` | `$99/user/month` |
 
-## Power BI Desktop
+### Power BI Desktop
 Free download and support onlly for Windows. <a id="mylink" href="https://www.microsoft.com/en-us/download/details.aspx?id=58494">:link: click here</a>
 - Get data
 - Model data
 - Create visualizations and reports
 - Share with your team
 
-## Outline of content
+### Outline of content
 - **Get Data**
   - Retrive files
   - data bases
@@ -52,6 +54,16 @@ Free download and support onlly for Windows. <a id="mylink" href="https://www.mi
 - **Share with your team**
   - Explore ways to share reports and data models 
 
-# Install Power BI Desktop
+## Install Power BI Desktop
 
-Power BI Desktop can be free downloaded from this <a href="#mylink">link</a>
+Power BI Desktop can be free downloaded from this link under <a href="#mylink">`Power BI tool -> Power BI Desktop`</a>
+
+### Supported Email Address
+- Organizational emails only like .com or .edu
+- .gov and .mil: consult with your administrator
+- You cannot use consumer email addresses such as Hotmail, Gamil, or Outlook
+
+*if you don't have that kind of email, here is a workaround*
+### Email Workaround
+- Sign up for a Microsoft 365 E5 or E3 trial
+- Use email account from the trial to sign up for Power BI
