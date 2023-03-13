@@ -30,7 +30,7 @@
 | `Free` | `$99/user/month` |
 
 ## Power BI Desktop
-Free download and support onlly for Windows. [:link: click here](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
+Free download and support onlly for Windows. <a id="mylink" href="https://www.microsoft.com/en-us/download/details.aspx?id=58494">:link: click here</a>
 - Get data
 - Model data
 - Create visualizations and reports
@@ -51,3 +51,7 @@ Free download and support onlly for Windows. [:link: click here](https://www.mic
   - Use visualizations to build a simple report
 - **Share with your team**
   - Explore ways to share reports and data models 
+
+# Install Power BI Desktop
+
+Power BI Desktop can be free downloaded from this <a href="#mylink">link</a>
