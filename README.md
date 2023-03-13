@@ -1,7 +1,7 @@
 # Resourse_Learn-Power-BI-Desktop
 Notes for Learning Power BI Desktop from LinkedIn Learning
 
-## Prerequisite
+## Before start
 
 For nearly a decade, Microsoft's preeminence in analytics and business intelligence are because of Microsoft Power BI. Power BI Desktop is a free Windows application that allows you to connect to hundreds of data sources, transform, shape, and relate your data to build a data model, create visually rich, interactive reports based on your model, then share the model and your reports with others in your team or organization. 
 
