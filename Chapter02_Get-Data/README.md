@@ -73,4 +73,10 @@ So, the general process will be:
 4. Return with that information
 5. Connect to your database in Power BI Desktop.
 
-
+## Connect to web data source
+1. `Home` -> `Get data` -> `Web`
+2. Paste the link into `URL`: https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(PPP)_per_capita
+3. The link shows the List of Countries by GDP with Purchasing Power Parity per capita, we have a large table containing colunmns of data from three different sources.
+4. After connected to the web source, you can select a list of tables from the web page. You can select a table, and go to `Web View` to check.
+5. Power BI will create queries and import the data. After that, you can examine the data in `Report View` and `Data View`.
+6. Save the file as `MyGDOs.pbix` for later use.
