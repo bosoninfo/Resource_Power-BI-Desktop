@@ -35,8 +35,8 @@ For nearly a decade, Microsoft's preeminence in analytics and business intellige
 ## Table of Contents
 - [Chapter01 - Getting Started](https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter01)
 - [Chapter02 - Get Date](https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter02)
-- Chapter03 - Transform Data with the Power Query Editor
-- Chapter04 - Combine, Append, and Merge Data
-- Chapter05 - Create Reports and Visualizations
-- Chapter06 - Use Filters and Q&A in a Report
-- Chapter07 - Share Your Work
+- [Chapter03 - Transform Data with the Power Query Editor](https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter03)
+- [Chapter04 - Combine, Append, and Merge Data](https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter04)
+- [Chapter05 - Create Reports and Visualizations](https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter05)
+- [Chapter06 - Use Filters and Q&A in a Report](https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter06)
+- [Chapter07 - Share Your Work](https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter07)
