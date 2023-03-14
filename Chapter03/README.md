@@ -30,6 +30,10 @@ Fix
 - Note that each of the steps above is recorded in the right side bar. You can undo a step by click :x: next to it.
 - Lastly, fix the data type. Eg, for "IMF Estimate" column, it is predominantly numbers, but it also has some text and blanks. Highlight this column, go to `Transform` -> `Any Column`, change `Data Type: Text` to `Data Type: Whole Number`.
 - Some errors are thrown because we have some text value ("N/A") here. Hover over the column you see message showing "31% of the changes that were made here resulted in errors". If you wish, you can choose `Remove Errors`, you will remove all the rows with errors in it. But it is not recommended here because for those rows with errors we still have values we want to keep in other columns. Leave it as what it is first.
+
+| ![image](https://user-images.githubusercontent.com/19381768/224904286-ace9ee24-7456-4cd4-8cd4-ea068ecd87d2.png) |
+| :--: |
+| error message |
 - Set data type to `Whole Number` for "World Bank Estimate". It will pitch a few errors as well.
 - Go to "CIA Estimate" and change data type to `Whole Number`. You can notice the data type are show at the top of each column.
 - To apply the changes, go to `Home` -> `Close`, `Close & Apply` -> `Apply'. It says we have 33 errors, but we know where they are. Go to `Home` -> `Close`, `Close & Apply` -> 'Close & Apply'. 
@@ -54,3 +58,47 @@ We would like to reduce this data set so that we have the top 25 countries in te
 ## Filter, set data type, replace values
 In this section, we're going to create a new data model so that we can do some filtering, setting data types and replacing values.
 
+Open `Transform Census.xlsx`. 
+- It is this historical census data from 1790 to 1860. 
+- Choose `US Pop Table 1790-1860` -> `Load`, you can see it is populated into the field list, and the column names are default.
+
+Go to Power Query
+- `Home` -> `Transfer data` -> `Transfer data`
+- From right side bar, three things were done: `Source`, `Navigation`, and `Changed Type`.
+- `Home` -> `Transform`, `Use First Row as Headers`
+- You can see the green bar across most of the columns. Eg, in "1790" column, it says that 19 (37%) of the entries are valid, no error, 33 (63%) are empty.
+
+| ![image](https://user-images.githubusercontent.com/19381768/224904124-f2564767-6b74-4266-bf44-260a2129bb84.png) |
+| :--: |
+| the validity of the data |
+- When we examine the data, we found out the missing data in "Admitted" are accepted, locate to that column, choose `Remove Empty` to remove 2 rows. An action named `Filtered Rows` is added to the `Applied Steps` as well. The green bar goes 100% in "Admitted" column since there is no null value now.
+- Choose `Hawaii` and click `11` from the first column, it will display a transpose view of this record at the bottom of the window. We notice that it has no value by 1860 so we want to eliminate it. So, hover over column "1860", click on `Remove Empty` to remove 8 rows.
+
+Replace value
+- Click on column "1790", go to `Home` -> `Transform`, `Replace Values`, replace all "null" with "0".
+- But now we actually want to undo that because 0 means there were no people there while, in fact, it's "null" because there was no census taken in that state or territory in that particular year. Before you hit :x: to the step, you can click on :gear: to see what has been done in that step.
+- You can also sorting the data by ascending or descending order in any column.
+- Now `Close & Apply` the data, save it as `Census History.pbix`.
+
+## Unpivot columns
+Open `Census History.pbix'.
+
+- If you look at the `Data View`, you would notice that it is actually a pivot table. For example, originally we should have 8 records in Connecticut and 1 record in Colorado.
+- Occasionally, we need to have that original data back, so we can create the visualization. Go to Power Query mode by `Home` -> `Transfer data` -> `Transfer data`.
+- We want to unpivot this data, so every single row then would have the same information about the state, the year it was admitted, but it would have then the year of the census and the data value for that year of the census.
+- Choose column "Name" and hold "Ctrl" button and select "Admitted", go to `Transform` -> `Any Column`, `Unpivot Columns` -> `Unpivot Other Columns`. But we notice there is a key column.
+- Move back by undoing the step, select "key" column and right click, choose `Move` -> `To Beginning`.
+- Then you choose "key", "Name" and "Admitted", repeat the unpivot other columns step, you will get the data set you want.
+- Rename "Attribute" as "Census Year", rename "Value" as "Population", change "Census Year" to "Whole Number" by clicking the small "ABC" icon in the column name.
+
+## Transform columns
+
+`Transform` -> `Table`
+- `Transpose`: transpose table so rows become columns, columns become rows
+- `Reverse Rows': last rows are displayed first
+- `Count Rows`: know how many rows the table has
+
+`Transform` -> `Any Column`
+- `Data Type`
+- `Detect Data Type`: assume you have a column with lots of null values but all the others are numbers. That might be assigned originally as text. But if we choose the column and use detect data type, the data type is clearly numeric without the presence of nulls.
+- `Replace Values`
