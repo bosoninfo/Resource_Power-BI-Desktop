@@ -92,13 +92,29 @@ Open `Census History.pbix'.
 - Rename "Attribute" as "Census Year", rename "Value" as "Population", change "Census Year" to "Whole Number" by clicking the small "ABC" icon in the column name.
 
 ## Transform columns
+Below are ribbons under `Transform` tab
 
-`Transform` -> `Table`
+:arrow_forward:`Table`
 - `Transpose`: transpose table so rows become columns, columns become rows
 - `Reverse Rows': last rows are displayed first
 - `Count Rows`: know how many rows the table has
 
-`Transform` -> `Any Column`
-- `Data Type`
+:arrow_forward:`Any Column`
+- `Data Type`: change data type
 - `Detect Data Type`: assume you have a column with lots of null values but all the others are numbers. That might be assigned originally as text. But if we choose the column and use detect data type, the data type is clearly numeric without the presence of nulls.
-- `Replace Values`
+- `Replace Values`: replace values
+- `Fill`: fill up and down as in Excel.
+- `Move`: move column
+
+:arrow_forward:`Text Column`
+- `Split Column`: by delimiter, by number of charaters, etc.
+- `Format`: modify the format of the column, lowercase or uppercase, trim any trailing or leading spaces, clean any non-printable characters, add prefix etc.
+- `Extract`: first character, last character, range etc.
+
+:arrow_forward:`Number Column`
+- `Statistics`: aggregate functions
+- `Standard`: basic math
+- `Information`: is Even, is Odd, etc.
+
+:arrow_forward:`Date & Time Column`
+
