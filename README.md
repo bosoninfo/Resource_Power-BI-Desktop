@@ -5,6 +5,7 @@ The data source included in this project was obtained from LinkedIn Learning cou
 All rights, title and interest in the data source belong to their respective owners. 
 The data is used for educational purposes only and will not be reproduced or distributed for any other purpose.
 ```
+[:link: Click here for redirecting to the course.](https://www.linkedin.com/learning/learning-power-bi-desktop-16568640/model-and-visualize-your-data-with-power-bi-desktop?autoplay=true&resume=false&u=74654250) You may require subscription to LinkedIn Learning to be able to get access to the full course content.
 
 ## Before start
 
