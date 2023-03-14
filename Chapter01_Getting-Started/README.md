@@ -61,7 +61,7 @@ Free download and support only for Windows. [:link: click here"](https://www.mic
 
 ## Install Power BI Desktop
 
-Power BI Desktop can be free downloaded from this link under [`Power BI tool` -> `Power BI Desktop`]("#mylink")
+Power BI Desktop can be free downloaded from this link under [`Power BI tool` -> `Power BI Desktop`]("[#mylink](https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/blob/main/Chapter01_Getting-Started/README.md#power-bi-desktop)")
 
 ### Supported Email Address
 - Organizational emails only like .com or .edu
