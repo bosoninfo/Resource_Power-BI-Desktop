@@ -36,8 +36,8 @@
 | Data via Power BI service | Direct interactive connection |
 | `Free` | `$99/user/month` |
 
-### Power BI Desktop
-Free download and support onlly for Windows. <a id="mylink" href="https://www.microsoft.com/en-us/download/details.aspx?id=58494">:link: click here</a>
+### <a id="my-link"></a>Power BI Desktop
+Free download and support only for Windows. [:link: click here"](https://www.microsoft.com/en-us/download/details.aspx?id=58494")
 - Get data
 - Model data
 - Create visualizations and reports
@@ -61,7 +61,7 @@ Free download and support onlly for Windows. <a id="mylink" href="https://www.mi
 
 ## Install Power BI Desktop
 
-Power BI Desktop can be free downloaded from this link under <a href="#mylink">`Power BI tool -> Power BI Desktop`</a>
+Power BI Desktop can be free downloaded from this link under [`Power BI tool` -> `Power BI Desktop`]("#mylink")
 
 ### Supported Email Address
 - Organizational emails only like .com or .edu
