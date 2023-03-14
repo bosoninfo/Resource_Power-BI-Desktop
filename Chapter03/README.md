@@ -81,7 +81,7 @@ Replace value
 - Now `Close & Apply` the data, save it as `Census History.pbix`.
 
 ## Unpivot columns
-Open `Census History.pbix'.
+Open `Census History.pbix`.
 
 - If you look at the `Data View`, you would notice that it is actually a pivot table. For example, originally we should have 8 records in Connecticut and 1 record in Colorado.
 - Occasionally, we need to have that original data back, so we can create the visualization. Go to Power Query mode by `Home` -> `Transfer data` -> `Transfer data`.
@@ -117,4 +117,8 @@ Below are ribbons under `Transform` tab
 - `Information`: is Even, is Odd, etc.
 
 :arrow_forward:`Date & Time Column`
+- format date value
+- format time value
 
+Head back to `Census History.pbix`.
+After manipulating in Power Query, you can just `Close` it. Then a notification will show up at the top with the options of `Apple changes` or `Discard changes`. It's a good way to practice and change the data in Power Query.
