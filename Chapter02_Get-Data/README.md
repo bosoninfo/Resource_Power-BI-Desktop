@@ -80,3 +80,16 @@ So, the general process will be:
 4. After connected to the web source, you can select a list of tables from the web page. You can select a table, and go to `Web View` to check.
 5. Power BI will create queries and import the data. After that, you can examine the data in `Report View` and `Data View`.
 6. Save the file as `MyGDOs.pbix` for later use.
+
+## Connect to a SharePoint list
+If your organization uses SharePoint either online or on premises, there are some customized lists that were created for your organization.
+
+1. `Home` -> `Get data` -> `More...` -> search `sharepoint`
+2. You get result of `SharePoint folder`, `SharePoint Online List`, and `SharePoint list`. Click on `SharePoint Online List`.
+3. There are two connectors available under `Implementation`.
+   - The version `1.0` connector allows you to retrieve all the columns from the list.
+   - The version `2.0` connector allows not only retrieve all colunmns, but also retrieve the columns set in the "Default View"
+4. Also, you need to provide `Site URL`, where you should enter the root URL for the SharePoint site not including subfolders. (eg. the URL before "../List.." not including "/List..")
+5. You will get everything that is available in that site. Choose the table, click on `Load`, wait for a moment.
+6. Examine `Data View` and the field in `Report View`.
+7. Since we don't need to use the data later, simply close Power BI.
