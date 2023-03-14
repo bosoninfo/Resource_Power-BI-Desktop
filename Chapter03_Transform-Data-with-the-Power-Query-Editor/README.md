@@ -35,3 +35,18 @@ Fix
 - To apply the changes, go to `Home` -> `Close`, `Close & Apply` -> `Apply'. It says we have 33 errors, but we know where they are. Go to `Home` -> `Close`, `Close & Apply` -> 'Close & Apply'. 
 - Notice that the field names are changed under `Report View` -> `Fields`.
 
+## Reduce rows
+If you are not in the Power Query view, use `Home` -> `Transfer data` -> `Transfer data` to go back.
+
+We would like to reduce this data set so that we have the top 25 countries in terms of their GDP per capita. We'll handle those errors along the way.
+
+- The dataset we want to use is the "World Bank" data set since it's a newer data set and it tends to exclude territories and include countries. Other data set like CIA, for example, does includes other territorial units. And also some of the data here is older, in 2014 or 2015, whereas the "World Bank" tends to be 2019 or 2020.
+- Having decided that we don't care about the "IMF" data, hold "Ctrl", select "IMF Estimate", "IMF Year", "CIA Estimate" and "CIA Year", go to `Home` -> `Manage Columns`, `Remove Columns` -> `Remove Columns`. We have five columns left.
+- Select "World Bank Estimate", right click, choose `Remove Errors`. Now we have 201 rows rather than 227.
+- Select :arrow_down_small: in "World Bank Estimate" column, choose `Sort Descending`.
+- Go to `Home` -> `Reduce Rows`, `Keep Rows` -> `Keep Top Rows`, enter 25. Now we have our query result.
+- One more thing to notice is that we have "(more)" under "Country (or territory)" column since this "(more)" was actually a hyperlink to more information. We need to perform some text transformation here.
+- Go to `Transform` -> `Text Column`, `Extract` -> `Text Before Delimiter`, enter "(" under `Delimiter`, the word "(more)" disappears.
+- There are other transformations for number and date & time columns, you can have a try and play around.
+- Remember to `Close & Apply`, the data will be reloaded to Power BI Desktop. There are now 5 columns and 25 rows in the data model.
+- You may save it but you do not necessarily need to. We won't be using this later in the course.
