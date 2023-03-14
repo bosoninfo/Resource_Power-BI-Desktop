@@ -8,29 +8,32 @@ Power BI Service has access to a limited number of types of data connections. Bu
 
 **:arrow_forward: File**
 
-Excel, Text/CSV, XML, SharePoint folder...
+- Excel, Text/CSV, XML, SharePoint folder...
 
 **:arrow_forward: Database**
 
-SQL Server, Access, Jethro (Beta), IBM Informix database (Beta)..., and some of theses are in beta
+- SQL Server, Access, Jethro (Beta), IBM Informix database (Beta)..., and some of theses are in beta
 
 **:arrow_forward: Power Platform**
 
-Power BI is part of the Microsoft's Power Platform, such as Power BI datasets, Power BI dataflows. 
+- Power BI is part of the Microsoft's Power Platform, such as Power BI datasets, Power BI dataflows. 
 
-Dataverse: the updated version of the Common Data Service (Legacy). It is used by all the tools in the Power Platform and other applications like Microsoft Teams.
+- Dataverse: the updated version of the Common Data Service (Legacy). 
+- It is used by all the tools in the Power Platform and other applications like Microsoft Teams.
 
 **:arrow_forward: Azure**
 
-Cloud services: Azure SQL Database
+- Cloud services: Azure SQL Database
 
 **:arrow_forward: Online Services**
 
-Microsoft SharePoint Online, Microsoft Exchange Online, Dynamics. Also including other SaaS connections, such as LinkedIn Sales Navigator, Marketo, Smartsheet, Intune Data Warehouse, Webtrends Analytics...
+- Microsoft SharePoint Online, Microsoft Exchange Online, Dynamics. 
+- Also including other SaaS connections, such as LinkedIn Sales Navigator, Marketo, Smartsheet, Intune Data Warehouse, Webtrends Analytics...
 
 **:arrow_forward: Other**
 
-If the data source you are looking for is not in the list, choose Other. We have Web, SharePoint list, Microsoft Exchange. But, we also have the ability to retrieve data using OData feed, ODBC or OLE DB, which means we can connect to almost any data source even if there isn't a pre-built connection for it.
+- If the data source you are looking for is not in the list, choose Other. We have Web, SharePoint list, Microsoft Exchange. 
+- But, we also have the ability to retrieve data using OData feed, ODBC or OLE DB, which means we can connect to almost any data source even if there isn't a pre-built connection for it.
 
 ***When we choose a data source and click connect, what happens next is based on the data source type we chose to connect to.***
 
@@ -118,4 +121,42 @@ With Dataverse, users can easily build and deploy custom business applications u
 - Live connection
 - DirectQuery
 
-### Import
+### :sparkle: Import (fastest) - Use most of the time
+- Loaded data is imported into Power BI cache
+- Visualizations are created using data in the cache
+- Report data must be refreshed to view changes in visualizations
+- Default connection method in Power BI
+
+### :sparkle: DirectQuery (slower than import) - Use for some organizations
+- Loaded data is not imported into Power BI cache (every time it retrieves data from data source)
+- Visualizations are created using the data source
+- Report data must still be refreshed to view changes in visualizations
+- Each time you open or create a report, the data source is querried
+- Not available for all data connections
+
+#### *Why Use DirectQuery?* 
+- Data must be up-to-the-minute
+- Data source too large to import
+
+### :sparkle: Live Connections (faster than DirectQuery) - Use sometimes
+- Data sources
+   - SQL Server Analysis Services
+   - Dataverse
+   - Common Data Service (legacy)
+   - Power BI datasets published to powerbi.com
+- Support dataset sharing in Power BI
+- Data souce is queried directly, but the data source itself is living in the Power BI Service
+
+## Open a PBIX file or Excel data model
+There's another way that we can bring data directly into Power BI Desktop, and that is to open a data model that was created either using Power BI Desktop or perhaps a data model that was created using Excel and the tools like Power Pivot and Power Query that work with Microsoft Excel. 
+
+- `File` -> `Browse reports` -> `MedianAge.pbix`
+- `File` -> `Import` -> `Power Query, Power Pivot, Power View` -> look for Excel file
+
+## Change the data source for a PBIX file
+When we create a data model and save it as a PBIX file, we begin by getting data from a source. And when we saved this PBIX file, that data source connection was saved as part of the file.
+
+- `Home` -> `Transform data` -> `Data source settings` -> you can find the location of the data source. But your PBIX file may be stored in a different path to the data source.
+- When you transfer the PBIX file to others, the data source path will not be the same as it is in your computer. If you use SharePoint or OneDrive to locate the data source, it could be fine. But if you use an Excel workbook, there will be a problem even you send the Excel workbook.
+- So you need to be able to change the path. Highlight the path, click on `Change Source...` -> `Browse` -> find the file you are looking for to create a connection to your version of the Excel workbook.
+- Except for that, other use case may be you want to use an entirely different set of data. If both data sources have the same columns, you can simply change the data source and use the same report that you have built in Power BI. You can have a read on `Changing the data source for a PBIX file.pdf` file and use it to explain to someone else as well.
