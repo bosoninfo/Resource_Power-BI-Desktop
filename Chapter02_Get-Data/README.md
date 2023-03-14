@@ -26,4 +26,12 @@ Microsoft SharePoint Online, Microsoft Exchange Online, Dynamics. Also including
 ### :sparkles: Other
 If the data source you are looking for is not in the list, choose Other. We have Web, SharePoint list, Microsoft Exchange. But, we also have the ability to retrieve data using OData feed, ODBC or OLE DB, which means we can connect to almost any data source even if there isn't a pre-built connection for it.
 
-*Whenever we choose a data source and click connect, whatever happens next is based on the data source type we chose to connect to.*
+***:bangbang: Whenever we choose a data source and click connect, whatever happens next is based on the data source type we chose to connect to.***
+
+## Connect to a file: Excel
+`Home -> Excel -> MedianAge.xlsx`
+
+1. Under `Suggested Tables`, choose `Countries`, (Optional: then click on `Transform Data`), then click on `Load`.
+2. In `Data View`, you can see the data there; In `Report View`, it is empty, but you can see the data in `Fields`.
+3. Save this for further work. `File -> Save as -> MedianAge.pbix`.
+4. Close Power BI Desktop.
