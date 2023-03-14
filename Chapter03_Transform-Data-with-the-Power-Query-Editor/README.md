@@ -50,3 +50,6 @@ We would like to reduce this data set so that we have the top 25 countries in te
 - There are other transformations for number and date & time columns, you can have a try and play around.
 - Remember to `Close & Apply`, the data will be reloaded to Power BI Desktop. There are now 5 columns and 25 rows in the data model.
 - You may save it but you do not necessarily need to. We won't be using this later in the course.
+
+## Filter, set data type, replace values
+In this section, we're going to create a new data model so that we can do some filtering, setting data types and replacing values.
