@@ -37,7 +37,7 @@
 | `Free` | `$99/user/month` |
 
 ### <a id="mylink"></a>Power BI Desktop
-Free download and support only for Windows. [:link: click here"](https://www.microsoft.com/en-us/download/details.aspx?id=58494")
+Free download and support only for Windows. [:link: click here](https://www.microsoft.com/en-us/download/details.aspx?id=58494")
 - Get data
 - Model data
 - Create visualizations and reports
