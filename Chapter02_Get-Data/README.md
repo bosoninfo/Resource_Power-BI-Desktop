@@ -93,3 +93,29 @@ If your organization uses SharePoint either online or on premises, there are som
 5. You will get everything that is available in that site. Choose the table, click on `Load`, wait for a moment.
 6. Examine `Data View` and the field in `Report View`.
 7. Since we don't need to use the data later, simply close Power BI.
+
+## Connect to Microsoft Dataverse
+:link: http://powerapps.microsoft.com
+
+Microsoft Dataverse, formerly known as Common Data Service (CDS), is a cloud-based data storage and management platform that allows users to store and manage data for their business applications. It provides a unified and secure data storage solution that can be used across different Microsoft applications such as Dynamics 365, Power Apps, and Power BI.
+
+Dataverse enables businesses to create custom data models, define business rules and workflows, and manage data entities and relationships. It also provides data validation and data integration capabilities, allowing data to be easily imported or exported from other sources.
+
+With Dataverse, users can easily build and deploy custom business applications using low-code or no-code development tools such as Power Apps, Microsoft Flow, and Power BI. These applications can be used to automate business processes, manage data, and gain insights into business performance.
+
+1. Locate yourself to Microsoft Power Apps, ensure the environment is correct (located in the top-right corner, eg. KinetEco)
+2. Go to `Settings` -> `Session details`, look at `Instance url`, but you only need the middle part between "https://" and "/" the trails the string, which is the "{organization_code}.crm.dynamics.com", copy it.
+3. Return to Power BI Desktop, go to `Home` -> `Dataverse`, paste the url in `Environment domain`.
+4. If we choose `import`, the data will be cached in Power BI Desktop in our model. Save here so that we can work with it very robustly. We only choose `DirectQuery` if we have to have current data minute by minute. Because if we use direct query, every time we refresh, anything we build just go back out and go to get data. Leave it as "import" here, and click `OK`.
+5. You may be prompted to log in again to your account.
+6. You will see a list of all the tables that are available, you can use search box to find the one you want. The tables have the appropriate structure with empty data. You can bring multiple tables at the same time.
+
+## Power BI Data Connections
+*Advanced connection types: DirectQuery and live connections*
+
+### Connection Modes
+- Import
+- Live connection
+- DirectQuery
+
+### Import
