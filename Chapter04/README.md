@@ -33,6 +33,16 @@ The best way is we can manipulate and disaggregate the data as we want in Power 
 
 If you just open the `Countries.pbix` from download, you need to go to `Home` -> `Transform data` -> `Data source settings` to link to the Excel workbook. We want to combine these 7 queries into one containing all seven continents.
 
-### Start with Africa
+### Start combine
 - Open Power Query, select query `Africa`, right click and choose `Duplicate` because we don't want to lose data in it, right click `Africa(2)` and rename it as `All Countries`.
-- We then start to append data from other tables. `Home` -> `AI Insights`, `Combine` -> `Append Queries` -> `Append Queries`. Let's try 
+- We then start to append data from other tables. `Home` -> `AI Insights`, `Combine` -> `Append Queries` -> `Append Queries`. Let's try to append one data set Antarctica, choose `Two tables` and in the dropdown list, select `Antarctica, click on `OK`. Now if you scroll down, there are four entries from `Antarctica`.
+- Practice again, this time, choose `Three or more tables`, select `Asia`, `Europe`, `North America`, `Oceania`, and `South America`. Wait a moment, and you now have 269 rows.
+- `Close & Apply`, save as `All Countries.pbix`
+
+## Add an index column
+Continue with `All Countries.pbix`
+
+- First you notice we have duplicated values in "Key" column, let's go to Power Query to fix it.
+- Right click "Key" -> `Remove`
+- `Add Column` -> `General`, `Index Column` -> `From 1` (BTW, if you choose `Custom`, you can set both `Starting Index` and `Increment`), move the new index column to the beginning, rename it as "ID".
+- `Close & Apply`
