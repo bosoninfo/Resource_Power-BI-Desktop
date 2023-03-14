@@ -71,4 +71,14 @@ Common practice for data clean
 3. pay close attention to the indicator bar that shows the validity of a column
 
 ## Relate tables in your model
-Continue with `Relate.pbix`. If you directly open `Relate.pbix` without go throught the previous section, remember to [relate it to the data source](https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter04#append-data-to-a-query). In the fields under `We will use three primary tables: `All Countries`, 
+Continue with `Relate.pbix`. If you directly open `Relate.pbix` without go throught the previous section, remember to [relate it to the data source](https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter04#append-data-to-a-query). In the fields under `Report View`, we will see three primary tables: `All Countries`, `Population by Country`, and `Population Growth Rate`. We would llike to relate those three tables to each other.
+
+Go to `Model View`
+
+### Delete unwanted relationship
+- You can collapse the `Properties` pane. If you use zooming (bottom-right corner) to zoom out the window, you can see all the tables, some are related and some ain't.
+- If you zoom in, you can see `All Countries` is related to `Antarctica` and others by the "Key" field. But they are not the relationships we want, right click the relationship -> `Delete`.
+- Zoom out, you can drag around all tables. Drag the three tables of insteret to make them close to each other. Delete the relationship between `Population by Country` and `Population Growth Rate` as well.
+
+### Create new relationships
+-
