@@ -96,7 +96,7 @@ Below are ribbons under `Transform` tab
 
 :arrow_forward:`Table`
 - `Transpose`: transpose table so rows become columns, columns become rows
-- `Reverse Rows': last rows are displayed first
+- `Reverse Rows`: last rows are displayed first
 - `Count Rows`: know how many rows the table has
 
 :arrow_forward:`Any Column`
