@@ -29,20 +29,40 @@ If the data source you are looking for is not in the list, choose Other. We have
 ***:sparkle: Whenever we choose a data source and click connect, whatever happens next is based on the data source type we chose to connect to.***
 
 ## Connect to a file: Excel
-`Home` -> `Excel` -> `MedianAge.xlsx`
 
-1. Under `Suggested Tables`, choose `Countries`, (Optional: then click on `Transform Data`), then click on `Load`.
-2. In `Data View`, you can see the data there; In `Report View`, it is empty, but you can see the data in `Fields`.
-3. Save this for further work. `File` -> `Save as` -> `MedianAge.pbix`.
-4. Close Power BI Desktop.
+1. `Home` -> `Excel` -> `MedianAge.xlsx`
+2. Under `Suggested Tables`, choose `Countries`, (Optional: then click on `Transform Data`), then click on `Load`.
+3. In `Data View`, you can see the data there; In `Report View`, it is empty, but you can see the data in `Fields`.
+4. Save this for further work. `File` -> `Save as` -> `MedianAge.pbix`.
+5. Close Power BI Desktop.
 
 ## Connect to a file: CSV
-`Home` -> `Get data` -> `More...` -> `Text/CSV` -> `Connect` -> `GDP.csv`
 
-1. CSV files are flat files that do not content multiple sheets. You get options in choosing 
+1. `Home` -> `Get data` -> `More...` -> `Text/CSV` -> `Connect` -> `GDP.csv`
+2. CSV files are flat files that do not content multiple sheets. You get options in choosing 
    - `File Origin` (Windows)
-   - `Delimiter`(most common delimiter are comma and colon, some old files are using `--Fixed Width--` with allocated character spaces to specify a field)
+   - `Delimiter` (most common delimiter are comma and colon, some old files are using `--Fixed Width--` with allocated character spaces to specify a field)
    - `Data Type Detection` (if data type are self identified, you can choose `Based on first 200 rows`, otherwise you can decide the datatype by yourself later using `Do not detect data types`)
-2. Click on `Load`.
-3. Similarly, examine the data in `Data View` and `Report View`.
-4. For practice use, you don't need to save the file. You can just close Power BI Desktop and choose `Don't Save`.
+3. Click on `Load`.
+4. Similarly, examine the data in `Data View` and `Report View`.
+5. For practice use, you don't need to save the file. You can just close Power BI Desktop and choose `Don't Save`.
+
+## Connect to database
+Most exterprise data is kept in a database. Here is an example.
+
+- `Home` -> `Get data` -> `More...` -> `Database` -> `SQL Sever database` -> `Connect`
+- Fill out `Server`, `Database (optional)` and Advanced options. You can ask for those information from the data administrator. 
+- You can filter out data beform populating them into Power BI Desktop by writing `SQL statement`.
+- You also have choices to `Import` or `DirectQuery`, we will talk about these later in the course. Of note is that there is limited set of data sources that support direct query. `Import` means that the data is going to be coming directly into Power BI and cached for Power BI to use; Direct query actually  creates a direct connection to the database.
+
+Another example,
+- `Home` -> `Get data` -> `More...` -> `Database` -> `Amazon Redshift` -> `Connect`
+- The view looks similar, but the `Database` is not optional.
+- Under Advanced Options, you have `Role` and `Batch Size`.
+
+So, the general process will be:
+1. Go to `Get data`
+2. Select the type of database
+3. Determine what information you need from your DBA
+4. Return with that information
+5. Connect to your database in Power BI Desktop.
