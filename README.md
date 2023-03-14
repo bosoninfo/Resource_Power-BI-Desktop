@@ -9,14 +9,33 @@ The data is used for educational purposes only and will not be reproduced or dis
 
 You may require subscription to LinkedIn Learning to be able to get access to the full course content.
 
-## Table of Contents
+## Table of Contents & Files
+- Changing the data source for a PBIX file.pdf
 - [Chapter01 - Getting Started](https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter01)
 - [Chapter02 - Get Date](https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter02)
+  - CountryPops.xlsx
+  - GDP.csv
+  - KinetEcoNationalInventory.pbix
+  - MedianAge.pbix
+  - MedianAge.xlsx
+  - MyGDPs.pbix
 - [Chapter03 - Transform Data with the Power Query Editor](https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter03)
+  - Census History.pbix
+  - MyGDPs.pbix
+  - Tranform Census.xlsx
 - [Chapter04 - Combine, Append, and Merge Data](https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter04)
+  - All Countries.pbix
+  - Countries.pbix
+  - CountryPops.xlsx
+  - GrowthRates.xlsx
+  - Merge.pbix
+  - Relate.pbix
 - [Chapter05 - Create Reports and Visualizations](https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter05)
+  - CP Report.pbix
 - [Chapter06 - Use Filters and Q&A in a Report](https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter06)
+  - Simple CP Report.pbix 
 - [Chapter07 - Share Your Work](https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter07)
+  - Countries Populations Final.pbix
 
 ## Before You Getting Started
 
