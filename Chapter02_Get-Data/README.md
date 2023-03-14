@@ -6,27 +6,33 @@
 
 Power BI Service has access to a limited number of types of data connections. But Power BI Desktop is toally different. We have six primary data sources. You can always search a particular type of data you want to retrieve in the seraching box.
 
-### :arrow_forward: File
+**:arrow_forward: File**
+
 Excel, Text/CSV, XML, SharePoint folder...
 
-### :arrow_forward: Database
+**:arrow_forward: Database**
+
 SQL Server, Access, Jethro (Beta), IBM Informix database (Beta)..., and some of theses are in beta
 
-### :arrow_forward: Power Platform
+**:arrow_forward: Power Platform**
+
 Power BI is part of the Microsoft's Power Platform, such as Power BI datasets, Power BI dataflows. 
 
 Dataverse: the updated version of the Common Data Service (Legacy). It is used by all the tools in the Power Platform and other applications like Microsoft Teams.
 
-### :arrow_forward: Azure
+**:arrow_forward: Azure**
+
 Cloud services: Azure SQL Database
 
-### :arrow_forward: Online Services
+**:arrow_forward: Online Services**
+
 Microsoft SharePoint Online, Microsoft Exchange Online, Dynamics. Also including other SaaS connections, such as LinkedIn Sales Navigator, Marketo, Smartsheet, Intune Data Warehouse, Webtrends Analytics...
 
-### :arrow_forward: Other
+**:arrow_forward: Other**
+
 If the data source you are looking for is not in the list, choose Other. We have Web, SharePoint list, Microsoft Exchange. But, we also have the ability to retrieve data using OData feed, ODBC or OLE DB, which means we can connect to almost any data source even if there isn't a pre-built connection for it.
 
-***:sparkle: Whenever we choose a data source and click connect, whatever happens next is based on the data source type we chose to connect to.***
+***When we choose a data source and click connect, what happens next is based on the data source type we chose to connect to.***
 
 ## Connect to a file: Excel
 
@@ -51,7 +57,7 @@ If the data source you are looking for is not in the list, choose Other. We have
 Most exterprise data is kept in a database. Here is an example.
 
 - `Home` -> `Get data` -> `More...` -> `Database` -> `SQL Sever database` -> `Connect`
-- Fill out `Server`, `Database (optional)` and Advanced options. You can ask for those information from the data administrator. 
+- Fill out `Server`, `Database (optional)` and Advanced options. You can ask for those information from the database administrator (DBA). 
 - You can filter out data beform populating them into Power BI Desktop by writing `SQL statement`.
 - You also have choices to `Import` or `DirectQuery`, we will talk about these later in the course. Of note is that there is limited set of data sources that support direct query. `Import` means that the data is going to be coming directly into Power BI and cached for Power BI to use; Direct query actually  creates a direct connection to the database.
 
@@ -66,3 +72,5 @@ So, the general process will be:
 3. Determine what information you need from your DBA
 4. Return with that information
 5. Connect to your database in Power BI Desktop.
+
+
