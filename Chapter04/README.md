@@ -71,4 +71,4 @@ Common practice for data clean
 3. pay close attention to the indicator bar that shows the validity of a column
 
 ## Relate tables in your model
-Continue with `Relate.pbix`. If you directly open `Relate.pbix` without go throught the previous section, remember to [relate it to the data source](https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/edit/main/Chapter04/README.md#append-data-to-a-query).
+Continue with `Relate.pbix`. If you directly open `Relate.pbix` without go throught the previous section, remember to [relate it to the data source](https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter04#append-data-to-a-query).
