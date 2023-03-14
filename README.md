@@ -9,7 +9,7 @@ The data is used for educational purposes only and will not be reproduced or dis
 
 You may require subscription to LinkedIn Learning to be able to get access to the full course content.
 
-## Before start
+## Before Starting
 
 For nearly a decade, Microsoft's preeminence in analytics and business intelligence are because of Microsoft Power BI. Power BI Desktop is a free Windows application that allows you to connect to hundreds of data sources, transform, shape, and relate your data to build a data model, create visually rich, interactive reports based on your model, then share the model and your reports with others in your team or organization. 
 
@@ -31,3 +31,12 @@ For nearly a decade, Microsoft's preeminence in analytics and business intellige
 - Find and replace
 - Sort and filter data
 - Insert and format charts
+
+## Table of Contents
+- Chapter01 - Getting Started
+- Chapter02 - Get Date
+- Chapter03 - Transform Data with the Power Query Editor
+- Chapter04 - Combine, Append, and Merge Data
+- Chapter05 - Create Reports and Visualizations
+- Chapter06 - Use Filters and Q&A in a Report
+- Chapter07 - Share Your Work
