@@ -33,8 +33,8 @@ For nearly a decade, Microsoft's preeminence in analytics and business intellige
 - Insert and format charts
 
 ## Table of Contents
-- Chapter01 - Getting Started
-- Chapter02 - Get Date
+- [Chapter01 - Getting Started](https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter01)
+- [Chapter02 - Get Date](https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter02)
 - Chapter03 - Transform Data with the Power Query Editor
 - Chapter04 - Combine, Append, and Merge Data
 - Chapter05 - Create Reports and Visualizations
