@@ -53,3 +53,4 @@ We would like to reduce this data set so that we have the top 25 countries in te
 
 ## Filter, set data type, replace values
 In this section, we're going to create a new data model so that we can do some filtering, setting data types and replacing values.
+
