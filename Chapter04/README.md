@@ -46,3 +46,29 @@ Continue with `All Countries.pbix`
 - Right click "Key" -> `Remove`
 - `Add Column` -> `General`, `Index Column` -> `From 1` (BTW, if you choose `Custom`, you can set both `Starting Index` and `Increment`), move the new index column to the beginning, rename it as "ID".
 - `Close & Apply`
+
+## Clean up data
+We will add two more small data sources to our model that will provide some real value, but also have some issues. Continue to working on `All Countries.pbix`.
+
+### Fix Population Growth Rate
+
+- `Home` -> `Excel` -> `GrowthRates.xlsx`, select `Population by Country` and `Population Growth Rate`, go to Power Query Editor.
+- Select `Population by Country`, the "Date" column is with type "text", fix it by applying `Home` -> `Transform`, `Data Type: Text` -> `Date`. Since originally there is a `Changed Type` step, the software will ask you would you replace or add new step to it, choose `Add new step`.
+- The green bars located under column insight are all cross over, so we know that we are not throwing erros anywhere, all we had was a data type mismatch.
+
+### Fix Population by Country
+
+- "Population growth rate (%)" is assigned as "text", but if we change it to .. -> `Decimal number` -> `Add new step`, notice that we have errors (15%). So we remove the step and examine why errors occur.
+- You notice the error occurs when there is a negative number, but Power BI definately can handle nagetive numbers. If you take very, very close attention, you might notice the minus sign is actually a hyphen (it's bigger).
+- Apply your skills you have learned by replacing hyphen (also called "M dash" or "Y dash") with minus sign (also called "N dash" or "narrow dash"). Tips: `Transform` -> `Replace Values`.
+- Now you can change the data type into `Decimal` and get a full green bar. Use `Close & Apply` -> `Apply` to apply the changes.
+- Save the file as `Relate.pbix`.
+
+### :dizzy: Wrapped up :dizzy:
+Common practice for data clean
+1. check data type
+2. replace unusual data: nulls, empty, N/A
+3. pay close attention to the indicator bar that shows the validity of a column
+
+## Relate tables in your model
+Continue with `Relate.pbix`. If you directly open `Relate.pbix` without go throught the previous section, remember to [relate it to the data source](https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/edit/main/Chapter04/README.md#append-data-to-a-query).
