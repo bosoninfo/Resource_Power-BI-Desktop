@@ -1,5 +1,10 @@
 # Resourse_Learn-Power-BI-Desktop
-Notes for Learning Power BI Desktop from LinkedIn Learning
+```
+Note: 
+The data source included in this project was obtained from LinkedIn Learning courses. 
+All rights, title and interest in the data source belong to their respective owners. 
+The data is used for educational purposes only and will not be reproduced or distributed for any other purpose.
+```
 
 ## Before start
 
