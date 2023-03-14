@@ -36,7 +36,7 @@
 | Data via Power BI service | Direct interactive connection |
 | `Free` | `$99/user/month` |
 
-### <a id="my-link"></a>Power BI Desktop
+### <a id="mylink"></a>Power BI Desktop
 Free download and support only for Windows. [:link: click here"](https://www.microsoft.com/en-us/download/details.aspx?id=58494")
 - Get data
 - Model data
