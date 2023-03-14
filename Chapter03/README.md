@@ -36,7 +36,7 @@ Fix
 | error message |
 - Set data type to `Whole Number` for "World Bank Estimate". It will pitch a few errors as well.
 - Go to "CIA Estimate" and change data type to `Whole Number`. You can notice the data type are show at the top of each column.
-- To apply the changes, go to `Home` -> `Close`, `Close & Apply` -> `Apply`. It says we have 33 errors, but we know where they are. Go to `Home` -> `Close`, `Close & Apply` -> 'Close & Apply'. 
+- To apply the changes, go to `Home` -> `Close`, `Close & Apply` -> `Apply`. It says we have 33 errors, but we know where they are. Go to `Home` -> `Close`, `Close & Apply` -> `Close & Apply`. 
 - Notice that the field names are changed under `Report View` -> `Fields`.
 
 ## Reduce rows
