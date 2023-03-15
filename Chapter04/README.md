@@ -97,4 +97,18 @@ If you have too many queries, you can have the choices to hide or display them.
 - Save it as `Merge.pbix`
 
 ## Merge data
-Continue working on `Merge.pbix`. If you directly open `Merge.pbix` without go throught the previous section, remember to [relate it to the data source](https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter04#append-data-to-a-query).
+Continue working on `Merge.pbix`. If you directly open `Merge.pbix` without go throught the previous section, remember to [relate it to the data source](https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter04#append-data-to-a-query). We are going to merge a couple of these data sources together so that we get a single larger query.
+
+***Why?***
+1. Speed, because it's easier and faster to pull data from a single cached query than from several queries.
+2. Simplicity, because you have a lot of small queries and you'd like to merge them together.
+3. You might want to standardize your data, which is the reason we're going to do it.
+
+### New merge
+- Go to Power Query Editor, select `All Countries`, go to `Home` -> `AI Insights`, `Combine` -> `Merge Queries` -> `Merge Queries as New`. In the merge window, select `Population by Country` to be merged with `All Countries`, highlight "Name" and "Country" columns to establish the relationship.
+- At the bottom it says "The selection matches 236 of 269 rows from the first table", so we have 33 that come back with no values. The reason is that in  `Population by Country` list, many of these are territories.
+- There is a `Use fuzzy matching to perform the merge` function, which is designed for poor data set because it tries to match more based on the information being similar and perhaps, a typo. But we don't get any extra out of these data set because there aren't typos.
+- Navigate to `Join Kind`, and be aware to choose the correct join type. Here we use `Left Outer (all from first, matching from second)`, click on `OK`.
+
+### Wrangling
+
