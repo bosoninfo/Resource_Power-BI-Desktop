@@ -125,6 +125,6 @@ Continue working on `Merge.pbix`. If you directly open `Merge.pbix` without go t
 - From the "Population Growth Rate" table, simply choose "Population growth rate (%)" and deactivate other columns. Untick `Use original column name as prefix` to kick out redundant information.
 - In `Query Settings` under `Properties`, `Name`, rename the query as "All Countires and Population Data". If you wish, you could click in `All Properties` and document the types of joins that you used, and it's normally you would do that.
 
-***:interrobang: Tip: What step should you perfrom before adding data from more tables, if you need to eventually aggregate the data by which table it originally came from?***
+***:question: Q: What step should you perfrom before adding data from more tables, if you need to eventually aggregate the data by which table it originally came from?***
 
-***Add a custom column to each table, set to the table name. Because a custom column with a fixed and unique value can later be used to associate a row to its original table.***
+***:exclamation: A: Add a custom column to each table, set to the table name. Because a custom column with a fixed and unique value can later be used to associate a row to its original table.***
