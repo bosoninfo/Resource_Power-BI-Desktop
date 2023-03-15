@@ -30,4 +30,55 @@ Continue on from the previous section. Sometimes we want a filter that is just b
 |:--:|
 |hide the filter pane from report readers|
 
-##
+## Add search capabilities with a Q&A visualization
+Continue on the previous section, we will now add a natural language capability to a report.
+
+- Insert a new page, go to `Visualization` pane -> `Build visual` -> `Q&A`. This visualization allows us to use text to create a new visualization.
+- Try "show all countries", the term "all countries" is underlined in blue. It shows us a matrix with the name, key, captical, and continent of all countries.
+- Try "show all countries as map", the terms "all countries" and "map" are underlined in blue.
+- Try "show all countries with populations".
+- When a term is underlined in blue, it means that there are other options. Simply hover over the term and click the option you want.
+
+***Issue case***
+- If you see some text underlined in orange, that means it's a little bit ambiguous.
+- Try "show growth rate for all counties", Power BI will prompt to ask if "counties" is actually "countries"
+- Try "show sales", get "Hmm, we didn't understand your question..."
+- Try "list all countries with growth rate below 0". The orange says where do you want to get this information from?
+
+|![image](https://user-images.githubusercontent.com/19381768/225207254-4d06910c-5982-472b-b921-ef461a6086c6.png)|
+|:--:|
+|underlined in orange means ambiguity|
+
+If at some point, if it is just the visualization we want, click on the button to the left of the settings gear, it will turn this result into a standard visual. Click on the page background, then it is clocked in, the Q&A visual goew away and is replaced.
+
+## Add suggestions to a Q&A visualizaiton
+Continue on from the previous section. 
+
+- Delete the visualization created by the Q&A visual. Change `Page 1` to `QA`. Drag `Q&A` tile to the page.
+- Click on the :gear: setting button in Q&A tile to enter the `Q&A setup` dialogue.
+- We have options of "Field synonyms", "Review questions", "Teach Q&A", and "Suggest quetions".
+
+### Field synonyms
+- Here shows the tables we are using. If we wanted to have a hidden table to be useful in Q&A, we can turn them back on.
+- Expand `All Countries`, notice that there are suggested terms that have been supplied.
+- We notice that `Capital` is matched with wrong synonyms, just `Add +` a term `capital city` to it, Power BI will automatically change those matched words. We can amend the suggested term by click :x: next to it, for example, clear municipality. 
+- Add `GUID` to `Key`, and delete other synonyms.
+
+### Review questions
+- We can sign in and see any questions that people have asked that were not answered.
+
+### Teach Q&A
+- We can ask questions in the same way we did in the Q&A tool and then clean them up, because we'll get the same feedback with the orange underline, the double red underline, the blue underline, and so on.
+
+### Manage terms
+- Manage the terms we have defined or throw they away.
+
+### Suggested questions
+- The list of questions that we start people off with should be something that they might be interested in.
+- Try  "countries with the highest growth rates", "countries with the 10 highest growth rates", "ten countries with the lowest growth rates". Add the last two.
+- We can click the questions that we have added and amend it again. Click "countries with the 10 highest growth rates" and change it to "ten countries with the highest growth rate".
+- The more description you add, the less ambiguity the question will be.
+- Try "five countries with the largest populations as a matrix"
+- "five countries with the largest populations in order"
+- "five countries with the largest populations from largest to smallest", add this one.
+- Click save. Come back and you will see the suggested questions are now changed.
