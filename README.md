@@ -1,11 +1,7 @@
 # Resourse_Learn-Power-BI-Desktop
-```
-Note: 
-The data source included in this project was obtained from LinkedIn Learning courses. 
-All rights, title and interest in the data source belong to their respective owners. 
-The data is used for educational purposes only and will not be reproduced or distributed 
-for any other purpose.
-```
+
+***:rotating_light::rotating_light::rotating_light:Disclaimer: This tutorial is based on the "Learning Power BI Desktop" course taught by Gini von Courter in LinkedIn Learning. All course content, including videos, exercises, and examples, are the property of their respective owners. This tutorial is intended as a learning resource for learners who is completing or have completed the course and wish to reinforce their understanding of the material covered.***
+
 [:link: Click here for redirecting to the course.](https://www.linkedin.com/learning/learning-power-bi-desktop-16568640/model-and-visualize-your-data-with-power-bi-desktop?autoplay=true&resume=false&u=74654250) 
 
 You may require subscription to LinkedIn Learning to be able to get access to the full course content.
