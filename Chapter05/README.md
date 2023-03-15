@@ -29,4 +29,37 @@ Save it as `CP Report.pbix`.
 
 ## Format visualizations and apply themems
 
-Recently Microsoft has redesigned the formatting panes and you can apply this new changes by going to `File` -> `Options and settings` -> `Options` -> `Preview features`
+Recently Microsoft has redesigned the formatting panes and you can apply this new changes by going to `File` -> `Options and settings` -> `Options` -> `Preview features` -> tick `New format pane`. Reopen Power BI Desktop, reopen `CP Report.pbix`, and continue on.
+
+### Thmems
+- If we want to make sweeping changes in the color design, simply go to `View` -> `Theme`, play around with different themes and see how the color design is applied to all elements.
+- If we just one to change the theme in one visualization, we can choose the visualization, go to `Visualization pane` -> `Format your visual`. There are two tabs, `General` tab are the same for all types of visualizations while `Visual` is specific for each type of the visualization. 
+- We can easily make changes to each elements, and the nice thing about it is we can always `Revert to default` if we don't like the changes. Another option is under the `...` button beside `General`, we can `Revert all settings to default`.
+- If we have no selected any visualization, the format setting will be `Format page`, where you can format the whole page.
+
+## Create text visuals: Cards, table and matrix
+
+### Matrix
+- In `Visualizations` pane choose `Matrix`, expand `All Countries and Population Data`, choose `Name`, `Population by Country.Population`, and `Population by Country.% of world population`.
+- The column names are too long, and we understand that if we change data source than the visualization would apply the changes. However, actually we are able to change the column name without affecting the original data source. Click the small dropdown button under `Visualizations` pane -> `Build visual` -> `Values` section. Choose the column name -> `Rename for this visual`. 
+- Rename `Population by Country.% of world population` as `% of World Population`, and rename `Population by Country.Population` as `Population`.
+- In the `Fields`, right click on `Name` and rename it as `Country Name`, then it will apply changes to all.
+
+|![image](https://user-images.githubusercontent.com/19381768/225188517-6e5e1801-6609-4be0-bfa6-f0e562706a49.png)|
+|:--:|
+|change column name without affecting data source|
+
+
+### Card (also called a big number card)
+- Click on `Card` in `Visualizations` pane, choose `Population by Country.Population` as the field. It will add up all the numbers an show us 4 billions.
+- We can click on the filter button, and notice that it is only showing the data from Asian. If we click on the bubble of Asia in map visualization, it will lead us to all data again, and all the visualizations will change accordingly. This is called cross filtering.
+- We can rename the label in Card as well, follow the same method in matrix, rename it as `Total Population`. If we just want it gone, go to `Visualizations` pane -> `Format visual` -> `Visual` -> turn `Category label` off.
+
+|![image](https://user-images.githubusercontent.com/19381768/225190125-9e117648-aa9f-4f3f-bf17-8066bef9ed31.png)|
+|:--:|
+|filtering|
+
+### Interim result
+|![image](https://user-images.githubusercontent.com/19381768/225190909-88a3451f-37c7-482a-ae43-7229677b340e.png)|
+|:--:|
+|an interim view of the report|
