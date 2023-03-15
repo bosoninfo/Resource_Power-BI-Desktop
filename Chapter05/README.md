@@ -29,3 +29,4 @@ Save it as `CP Report.pbix`.
 
 ## Format visualizations and apply themems
 
+Recently Microsoft has redesigned the formatting panes and you can apply this new changes by going to `File` -> `Options and settings` -> `Options` -> `Preview features`
