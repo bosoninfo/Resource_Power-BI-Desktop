@@ -88,3 +88,13 @@ Go to `Model View`
 - Finally, by relating these tables, we can ask valid questions such as the `Population Growth Rate` in a country versus the current population because they are both related through `All Countries`.
 
 ## Hide or display Queries
+
+If you have too many queries, you can have the choices to hide or display them.
+
+- In `Model View` under `Fields`, right click the `...` near query name, choose `Hide in report view`. Hide all the tables except `All Countries`, `Population Growth Rate`, and `Population by Country`.
+- You can still see all the tables in `Model View`, but when you navigate to `Report View`, you won't see the hidden tables.
+- Now if you share this Power BI data model with others, it's much more compact and much clearer now.
+- Save it as `Merge.pbix`
+
+## Merge data
+Continue working on `Merge.pbix`. If you directly open `Merge.pbix` without go throught the previous section, remember to [relate it to the data source](https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter04#append-data-to-a-query).
