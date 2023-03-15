@@ -82,3 +82,5 @@ The reason we like tables and matrices is that we can style them and format them
 |conditional formatting|
 
 ## Apply formatting to titles
+- Choose the map visual, go to `Format visual` -> `Visual` -> `Map settings` -> `Style`, we can change what type of map we want, and `Controls` with the setting as `Auto zoom` or `Zoom buttons` etc.
+- If we go to `General` -> `Title`, we can change the text color, font, etc.
