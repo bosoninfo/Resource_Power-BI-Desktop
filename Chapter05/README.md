@@ -57,9 +57,28 @@ Recently Microsoft has redesigned the formatting panes and you can apply this ne
 
 |![image](https://user-images.githubusercontent.com/19381768/225190125-9e117648-aa9f-4f3f-bf17-8066bef9ed31.png)|
 |:--:|
-|filtering|
+|use filtering to check what data is showing|
 
 ### Interim result
 |![image](https://user-images.githubusercontent.com/19381768/225190909-88a3451f-37c7-482a-ae43-7229677b340e.png)|
 |:--:|
 |an interim view of the report|
+
+## Apply preset styles and conditional formatting
+The reason we like tables and matrices is that we can style them and format them as we would in Excel. We will do two different ways to format a matrix.
+
+### Method 1
+- Select the matrix, go to `Visualizations` pane -> `Format visual` -> `Visual` -> `Sytle presets` -> change `Default` to other styles matching with your chosen theme.
+- If we don't like the presets, we can alter the matrix by using the categories below `Style presets`.
+
+### Method 2 (Conditional Formatting)
+- Select the matrix, go to `Visualizations` pane -> `Build visual` -> `Visual`, click on the small button near `% of World Population` -> `Conditional formatting`. We have many options here, just choose on to start with.
+- Select `Data bars`, a dialogue open for this perticular data. Change the `Positive bar` with a light blue color and click `OK`.
+- Click on `% of World Population` column to sort the data, make large values show at the top.
+- Many of the choices that you are familiar with from Microsoft Excel are available here for conditional formatting.
+
+|![image](https://user-images.githubusercontent.com/19381768/225192651-2b0fa792-ec8e-40bf-a076-9919ab4422ad.png)|
+|:--:|
+|conditional formatting|
+
+## Apply formatting to titles
