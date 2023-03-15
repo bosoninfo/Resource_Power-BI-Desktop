@@ -73,7 +73,7 @@ Common practice for data clean
 3. pay close attention to the indicator bar that shows the validity of a column
 
 ## Relate tables in your model
-Continue with `Relate.pbix`. If you directly open `Relate.pbix` without go throught the previous section, remember to [relate it to the data source](https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter04#append-data-to-a-query). In the fields under `Report View`, we will see three primary tables: `All Countries`, `Population by Country`, and `Population Growth Rate`. We would llike to relate those three tables to each other.
+Continue with `Relate.pbix`. If you directly open `Relate.pbix` without go throught the previous section, remember to [link it to the data source](https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter04#append-data-to-a-query). In the fields under `Report View`, we will see three primary tables: `All Countries`, `Population by Country`, and `Population Growth Rate`. We would llike to relate those three tables to each other.
 
 Go to `Model View`
 
