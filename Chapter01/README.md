@@ -1,13 +1,12 @@
 # GETTING STARTED
 
-*:herb: Power BI is a self-service business intelligence solution.*
-
-*:herb: It is not optimized for large-scale business.*
-
 |Table of Sections|
 |---|
 |<ul><li><a href="https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter01#power-bi-tools">Power BI tools</a></li><li><a href="https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter01#install-power-bi-desktop">Install Power BI Desktop</a></li><li><a href="https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter01#launch-power-bi-desktop">Launch Power BI Desktop</a></li></ul>|
 
+*:herb: Power BI is a self-service business intelligence solution.*
+
+*:herb: It is not optimized for large-scale business.*
 
 ## Power BI tools
 
