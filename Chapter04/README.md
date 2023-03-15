@@ -1,5 +1,7 @@
 # COMBINE, APPEND, AND MERGE DATA
 
+***:koala: Fun fact: The lanuage behind the custom query formulas is called M Language***
+
 ## Prep to combine multiple tables
 
 In this next series of sections, we're going to use the data shaping tools of Power BI Desktop to create a model that includes multiple tables using file `CountryPops.xlsx`. The Excel contains several worksheets: the first one shows the countries and their populations, the other worksheets contains countries from each continents. We want to visualise our data on a continent by continent basis.
@@ -111,4 +113,18 @@ Continue working on `Merge.pbix`. If you directly open `Merge.pbix` without go t
 - Navigate to `Join Kind`, and be aware to choose the correct join type. Here we use `Left Outer (all from first, matching from second)`, click on `OK`.
 
 ### Wrangling
+- In `Merge1` query, you will see a column named "Population by Country" with the value "table", click on the expend button to choose what columns we want.
+| ![image](https://user-images.githubusercontent.com/19381768/225175332-b252d7d3-9f00-4b5b-8175-410dc3d21779.png) |
+| :--: |
+| expend button |
+- Deactivate "(Select All Columns)", and tick "Population", "Date", and "% of world population". You would notice the less full green bar in terms of validity. If we scroll down, we can find those territories that are reported here.
 
+### Merge another data source
+- Repeat the steps to merge `Merge1` with `Population Growth Rate`. But this time, it's not "Merge Queries as New", it's just `Merge Queries`.
+- Select `Population Growth Rate`, based on "Name" and "Country", "Left Outer", and we get 221 of 269 rows from the first table.
+- From the "Population Growth Rate" table, simply choose "Population growth rate (%)" and deactivate other columns. Untick `Use original column name as prefix` to kick out redundant information.
+- In `Query Settings` under `Properties`, `Name`, rename the query as "All Countires and Population Data". If you wish, you could click in `All Properties` and document the types of joins that you used, and it's normally you would do that.
+
+***:interrobang: Tip: What step should you perfrom before adding data from more tables, if you need to eventually aggregate the data by which table it originally came from?***
+
+***Add a custom column to each table, set to the table name. Because a custom column with a fixed and unique value can later be used to associate a row to its original table.***
