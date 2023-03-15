@@ -48,3 +48,12 @@ Remember that tip that we had to make sure that the content published in Teams i
 - You will find your link is being shared in Teams now.
 
 ## Republish a dataset to the Power BI Service.
+If you want to do some changes in Power BI Desktop, you may wish to republish the updated version.
+
+- Open `Countries Populations Final.pbix`, make a duplicate of `South America` page and rename it as `North America`. Drag and put it in front of `South America` to make them in alphabetically order, and amend the `Filters` setting accordingly.
+- Simply go to `Home` -> `Share`, `Publish`, save the changes if you haven't. Choose exactly the same destination, `My workspace`.
+- Power BI prompts a dialogue and saying `Replace this dataset?`, "You already have a dataset named 'Countries Populations Final' in Power BI". Click on `Replace`, open the link to Power BI Service again.
+- Notice that the new version has been published.
+- In Microsoft Teams, simply switch to a different channel and come back, you can get the updated report because you republished to the Power BI Service.
+
+In summary, we create data models and reports here in Power BI desktop. But when we want to share them broadly, the best way to do it is to publish them to the Power BI service. And then if we want to use them in Teams or if we want to share them, we can share them directly from the Power BI service. And each time we republish, we are effectively republishing to all of those locations.
