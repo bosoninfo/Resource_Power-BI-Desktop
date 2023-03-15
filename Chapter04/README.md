@@ -81,4 +81,10 @@ Go to `Model View`
 - Zoom out, you can drag around all tables. Drag the three tables of insteret to make them close to each other. Delete the relationship between `Population by Country` and `Population Growth Rate` as well.
 
 ### Create new relationships
--
+- To relate "Name" in `All Countries` to "Country" in `Population by Country`, simply just drag one towards the other one and that would create a relationship between the two.
+- Right click on this relationship and select `Properties`, you can examine the relationship by looking at what tables are related, how is the `Cardinality` and the `Cross filter direction`.
+- Similarly, relate "Name" in `All Countries` to "Country" in `Population Growth Rate`
+- We could have removed the other tables, and asked Power BI to attempt to determine what the relationships are in the model that works. But if you know what the columns are then it's equally easy to open the `Model View`, and relate them by yourself.
+- Finally, by relating these tables, we can ask valid questions such as the `Population Growth Rate` in a country versus the current population because they are both related through `All Countries`.
+
+## Hide or display Queries
