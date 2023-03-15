@@ -53,6 +53,7 @@ Recently Microsoft has redesigned the formatting panes and you can apply this ne
 ### Card (also called a big number card)
 - Click on `Card` in `Visualizations` pane, choose `Population by Country.Population` as the field. It will add up all the numbers an show us 4 billions.
 - We can click on the filter button, and notice that it is only showing the data from Asian. If we click on the bubble of Asia in map visualization, it will lead us to all data again, and all the visualizations will change accordingly. This is called cross filtering.
+- In a standdard card visualization, a field added to the Card is added at the right.
 - We can rename the label in Card as well, follow the same method in matrix, rename it as `Total Population`. If we just want it gone, go to `Visualizations` pane -> `Format visual` -> `Visual` -> turn `Category label` off.
 
 |![image](https://user-images.githubusercontent.com/19381768/225190125-9e117648-aa9f-4f3f-bf17-8066bef9ed31.png)|
@@ -83,4 +84,7 @@ The reason we like tables and matrices is that we can style them and format them
 
 ## Apply formatting to titles
 - Choose the map visual, go to `Format visual` -> `Visual` -> `Map settings` -> `Style`, we can change what type of map we want, and `Controls` with the setting as `Auto zoom` or `Zoom buttons` etc.
-- If we go to `General` -> `Title`, we can change the text color, font, etc.
+- If we go to `General` -> `Title`, we can change the text color, font, etc. Change the title to dark blue.
+- Change the title of Treemap to 18 pt and dark blue.
+- Go to the matrix visual, the `Title` is turned off, change it to `on`, type `Country Population` in `Text` field to make a title. Change title to 18 pt and dark blue. Go to `Visual` and turn `Row subtotals` off to prevent distraction.
+- Come back to Treemap, this time, we can type `title` in search box to quick locate the function we want. Change the long title into `Population by Country`.
