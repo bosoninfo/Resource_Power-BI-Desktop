@@ -22,6 +22,29 @@
   - pin visuals from your report on a shareable dashboard
   
 ## Publish from Power BI Desktop
-Open `Countries Populations Final.pbix`. If you get an error, remember to link the data sources correctly.
+Open `Countries Populations Final.pbix`. If you get an error, remember to link the data sources correctly. [Don't know how to link?](https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter04#append-data-to-a-query)
 
-- 
+- `Home` -> `Share`, `Publish`, save the changes if you haven't.
+- Select a destination from the list. If you intend to publish and create a live connection later, you want to make sure that you're using what's called a "new experience workspace". `My workspace`, by definition, is a new experience workspace. Locate `My workspace` -> `Select`.
+- After loading, click the link `Open 'Countries Populations Final.pbix' in Power BI`.
+- Power BI service would ask you to log in, and here is the published report.
+- On the lefthand side, you can see `Countries Populations Final` is both a report and a data source, and both of them are in `My workspace`.
+
+## Get a PBIX file from the Power BI Service
+- In the Power BI Service page, choose `Get data` in the bottom-left corner -> `Create new content` -> `Files` -> `Get`.
+- Choose `Local File` -> `Countries Population Final.pbix` -> `Open`.
+- The result will be exactly the same as if I had published it from Power BI Desktop.
+
+## Display Power BI content in Microsoft Teams
+The only two sources to display Power BI in Teams are an app that was created using Power BI, or content from the Power BI Service. (Not directly from Power BI Desktop)
+
+- First, choose the channel, or possibly the chat where you want to place the report.
+- We choose a channel here, in the top memu, `Add a tab` -> `Power BI` -> select the report from `My workspace`. Make sure this team has been given access to this report in Power BI. Choose whehter you want a post by ticking `Post to the channel about this tab`.
+- Before save, you can add "PBI - " to the `tab name` to remind that this is a Power BI file. You can change it later as well.
+
+Remember that tip that we had to make sure that the content published in Teams is actually available to the people that we're sharing it with. Go to Power BI Service and open the report now.
+- At the top menu, click `Share`, change permission from `People in your organization`, `People with existing access`, and `Specific people`, also the options of `Allow recipients to share this report` and `Allow recipients to build content with the data associated with this report`.
+- After you apply the setting, you can `Copy link` to share it. Or, you can click `Teams`, enter the channel, attach a message to it, and `Share`.
+- You will find your link is being shared in Teams now.
+
+## Republish a dataset to the Power BI Service.
