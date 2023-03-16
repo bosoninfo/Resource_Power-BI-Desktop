@@ -2,7 +2,7 @@
 
 |Table of Sections|
 |---|
-|<ul><li><a href="https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter07#"></a></li></ul>|
+|<ul><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter07/README.md#sharing-the-basics">Sharing: The basics</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter07/README.md#publish-from-power-bi-desktop">Publish from Power BI Desktop</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter07/README.md#get-a-pbix-file-from-the-power-bi-service">Get a PBIX file from the Power BI Service</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter07/README.md#display-power-bi-content-in-microsoft-teams">Display Power BI content in Microsoft Teams</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter07/README.md#republish-a-dataset-to-the-power-bi-service">Republish a dataset to the Power BI Service</a></li></ul>|
 
 ## Sharing: The basics
 
