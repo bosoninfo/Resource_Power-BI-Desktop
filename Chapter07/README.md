@@ -51,7 +51,7 @@ Remember that tip that we had to make sure that the content published in Teams i
 - After you apply the setting, you can `Copy link` to share it. Or, you can click `Teams`, enter the channel, attach a message to it, and `Share`.
 - You will find your link is being shared in Teams now.
 
-## Republish a dataset to the Power BI Service.
+## Republish a dataset to the Power BI Service
 If you want to do some changes in Power BI Desktop, you may wish to republish the updated version.
 
 - Open `Countries Populations Final.pbix`, make a duplicate of `South America` page and rename it as `North America`. Drag and put it in front of `South America` to make them in alphabetically order, and amend the `Filters` setting accordingly.
