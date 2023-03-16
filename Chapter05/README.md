@@ -2,7 +2,7 @@
 
 |Table of Sections|
 |---|
-|<ul><li><a href="https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter05#"></a></li></ul>|
+|<ul><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter05/README.md#use-the-power-bi-desktop-report-view">Use the Power BI Desktop report view</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter05/README.md#format-visualizations-and-apply-themes">Format visualizations and apply themes</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter05/README.md#create-text-visuals-cards-table-and-matrix">Create text visuals: Cards, table and matrix</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter05/README.md#apply-preset-styles-and-conditional-formatting">Apply preset styles and conditional formatting</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter05/README.md#apply-formatting-to-titles">Apply formatting to titles</a></li></ul>|
 
 ## Use the Power BI Desktop report view
 In Chapter04, our data model is done. If you are a data modeler, data designers, at this point it would be done since we've done is created a data model. But we are not finished yet, it's good to practice few visualizations. Let's begin by switching to 'Report View'.
