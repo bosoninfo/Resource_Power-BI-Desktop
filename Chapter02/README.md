@@ -3,7 +3,7 @@
 |Table of Sections|
 |---|
 |<ul><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter02/README.md#power-bi-data-sources-the-basics">Power BI data sources: The basics</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter02/README.md#connect-to-a-file-excel">Connect to a file: Excel</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter02/README.md#connect-to-a-file-csv">Connect to a file: CSV</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter02/README.md#connect-to-database">Connect to database</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter02/README.md#connect-to-web-data-source">Connect to web data source</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter02/README.md#connect-to-a-sharepoint-list">Connect to a SharePoint list</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter02/README.md#connect-to-microsoft-dataverse">Connect to Microsoft Dataverse</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter02/README.md#power-bi-data-connections">Power BI Data Connections</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter02/README.md#open-a-pbix-file-or-excel-data-model">Open a PBIX file or Excel data model</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter02/README.md#change-the-data-source-for-a-pbix-file">Change the data source for a PBIX file</a></li></ul>|
-.
+
 ## Power BI data sources: The basics
 
 `Ribbon` -> `Home` -> `Get data` -> `More...`
