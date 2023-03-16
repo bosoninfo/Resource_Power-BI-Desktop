@@ -1,5 +1,9 @@
 # TRANSFORM DATA WITH THE POWER QUERY EDITOR
 
+|Table of Sections|
+|---|
+|<ul><li><a href="https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter03#"></a></li><li><a href="https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter03#"></a></li><li><a href="https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter03#"></a></li></ul>|
+
 ## Use the Power Query Editor
 
 Open `myGDPs.pbix`
