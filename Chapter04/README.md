@@ -2,7 +2,7 @@
 
 |Table of Sections|
 |---|
-|<ul><li><a href="https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter04#"></a></li></ul>|
+|<ul><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter04/README.md#prep-to-combine-multiple-tables">Prep to combine multiple tables</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter04/README.md#append-data-to-a-query">Append data to a query</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter04/README.md#add-an-index-column">Add an index column</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter04/README.md#clean-up-data">Clean up data</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter04/README.md#relate-tables-in-your-model">Relate tables in your model</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter04/README.md#hide-or-display-queries">Hide or display Queries</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter04/README.md#merge-data">Merge data</a></li></ul>|
 
 ***:koala: Fun fact: The lanuage behind the custom query formulas is called M Language***
 
