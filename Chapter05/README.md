@@ -1,5 +1,9 @@
 # CREATE REPORTS AND VISUALIZATIONS
 
+|Table of Sections|
+|---|
+|<ul><li><a href="https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter05#"></a></li></ul>|
+
 ## Use the Power BI Desktop report view
 In Chapter04, our data model is done. If you are a data modeler, data designers, at this point it would be done since we've done is created a data model. But we are not finished yet, it's good to practice few visualizations. Let's begin by switching to 'Report View'.
 
