@@ -1,5 +1,9 @@
 # COMBINE, APPEND, AND MERGE DATA
 
+|Table of Sections|
+|---|
+|<ul><li><a href="https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter04#"></a></li></ul>|
+
 ***:koala: Fun fact: The lanuage behind the custom query formulas is called M Language***
 
 ## Prep to combine multiple tables
