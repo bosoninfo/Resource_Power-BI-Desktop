@@ -2,7 +2,7 @@
 
 |Table of Sections|
 |---|
-|<ul><li><a href="https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter03/README.md#use-the-power-query-editor">Use the Power Query Editor</a></li><li><a href="https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter03/README.md#reduce-rows">Reduce rows</a></li><li><a href="https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter03/README.md#filter-set-data-type-replace-values">Filter, set data type, replace values</a></li><li><a href="https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter03/README.md#unpivot-columns">Unpivot columns</a></li><li><a href="https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter03/README.md#transform-columns">Transform columns</a></li></ul>|
+|<ul><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/tree/main/Chapter03/README.md#use-the-power-query-editor">Use the Power Query Editor</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/tree/main/Chapter03/README.md#reduce-rows">Reduce rows</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/tree/main/Chapter03/README.md#filter-set-data-type-replace-values">Filter, set data type, replace values</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/tree/main/Chapter03/README.md#unpivot-columns">Unpivot columns</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/tree/main/Chapter03/README.md#transform-columns">Transform columns</a></li></ul>|
 
 ## Use the Power Query Editor
 
