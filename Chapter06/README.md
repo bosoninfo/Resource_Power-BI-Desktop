@@ -1,5 +1,9 @@
 # USE FILTERS AND Q&A IN A REPORT
 
+|Table of Sections|
+|---|
+|<ul><li><a href="https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter06#"></a></li></ul>|
+
 ## Use slicers to filter visuals
 Open `Simple CP Report.pbix`. 
 
