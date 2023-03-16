@@ -1,5 +1,9 @@
 # SHARE YOUR WORK
 
+|Table of Sections|
+|---|
+|<ul><li><a href="https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter07#"></a></li></ul>|
+
 ## Sharing: The basics
 
 ### Sharing
