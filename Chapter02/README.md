@@ -1,5 +1,9 @@
 # GET DATA
 
+|Table of Sections|
+|---|
+|<ul><li><a href="https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter02#power-bi-data">Power BI tools</a></li><li><a href="https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter02#install-power-bi-desktop">Install Power BI Desktop</a></li><li><a href="https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter02#launch-power-bi-desktop">Launch Power BI Desktop</a></li></ul>|
+
 ## Power BI data sources: The basics
 
 `Ribbon` -> `Home` -> `Get data` -> `More...`
