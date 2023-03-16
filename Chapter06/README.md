@@ -2,7 +2,7 @@
 
 |Table of Sections|
 |---|
-|<ul><li><a href="https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter06#"></a></li></ul>|
+|<ul><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter06/README.md#use-slicers-to-filter-visuals">Use slicers to filter visuals</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter06/README.md#filter-reports-and-pages">Filter reports and pages</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter06/README.md#add-search-capabilities-with-a-qa-visualization">Add search capabilities with a Q&A visualization</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter06/README.md#add-suggestions-to-a-qa-visualizaiton">Add suggestions to a Q&A visualizaiton</a></li></ul>|
 
 ## Use slicers to filter visuals
 Open `Simple CP Report.pbix`. 
