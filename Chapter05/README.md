@@ -31,7 +31,7 @@ Save it as `CP Report.pbix`.
 |:--:|
 |Treemap|
 
-## Format visualizations and apply themems
+## Format visualizations and apply themes
 
 Recently Microsoft has redesigned the formatting panes and you can apply this new changes by going to `File` -> `Options and settings` -> `Options` -> `Preview features` -> tick `New format pane`. Reopen Power BI Desktop, reopen `CP Report.pbix`, and continue on.
 
