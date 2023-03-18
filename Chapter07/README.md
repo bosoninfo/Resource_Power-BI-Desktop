@@ -77,7 +77,7 @@ If you want to do some changes in Power BI Desktop, you may wish to republish th
 In summary, we create data models and reports here in Power BI desktop. But when we want to share them broadly, the best way to do it is to publish them to the Power BI service. And then if we want to use them in Teams or if we want to share them, we can share them directly from the Power BI service. And each time we republish, we are effectively republishing to all of those locations.
 
 ---
-## :grapes:Conclusion: Putting It All Together:grapes:
+# :grapes:Conclusion: Putting It All Together:grapes:
 Throughout this tutorial, we have explored the fundamentals of Power BI, covering various topics such as data preparation, data modeling, creating visualizations, applying filters, using Q&A features, and sharing your work. By now, you should have a solid foundation in using Power BI to analyze and visualize data, as well as effectively sharing your insights with others.
 
 As you continue to work with Power BI, remember to always consider the needs of your audience and ensure that your reports are clear, concise, and visually appealing. Power BI is a powerful tool, but its true potential can only be unlocked when you apply best practices and continually refine your skills.
