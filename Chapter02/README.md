@@ -10,6 +10,7 @@ Furthermore, we'll discuss advanced data connection types like DirectQuery and l
 
 Lastly, we'll cover the process of opening and modifying existing Power BI files (PBIX) or Excel data models, as well as changing the data source for a PBIX file. This is particularly useful when you need to update the data source or path, or when transferring files between different users or systems.
 
+By the end of this chapter, you'll be confident in connecting to a wide range of data sources and managing your data effectively within Power BI Desktop. So let's dive in and start unlocking the power of your data!
 
 ---
 |Table of Sections|
