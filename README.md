@@ -8,6 +8,10 @@
 
 You may require subscription to LinkedIn Learning to be able to get access to the full course content.
 
+|![image](https://user-images.githubusercontent.com/19381768/226108883-10001e97-ab0a-44eb-9c7b-31f0a9c42e32.png)|
+|:--:|
+|Power BI Desktop|
+
 ## Introduction to the Power BI Desktop Tutorial
 
 Welcome to this comprehensive Power BI Desktop tutorial, designed to help you learn and master the powerful capabilities of this versatile analytics tool. Based on the "Learning Power BI Desktop" course by Gini von Courter on LinkedIn Learning, this tutorial aims to reinforce your understanding of the material covered in the course and provide you with a handy reference for applying the concepts and techniques to your own projects.
