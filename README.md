@@ -48,23 +48,24 @@ Dive into the chapters and files provided in the Table of Contents, and get read
 
 ## Before You Getting Started
 
-For nearly a decade, Microsoft's preeminence in analytics and business intelligence are because of Microsoft Power BI. Power BI Desktop is a free Windows application that allows you to connect to hundreds of data sources, transform, shape, and relate your data to build a data model, create visually rich, interactive reports based on your model, then share the model and your reports with others in your team or organization. 
+For almost a decade, Microsoft has maintained its prominence in analytics and business intelligence, thanks largely to the powerful capabilities of Microsoft Power BI. Power BI Desktop is a versatile, free Windows application that enables users to connect to a wide variety of data sources, transform and shape the data, build comprehensive data models, create visually engaging and interactive reports, and share these models and reports with colleagues and teams across their organization.
 
 **Recommended Hardware**
-- Available RAM: 2GB minimum, 4 recommended
+- Available RAM: Minimum 2GB, recommended 4GB
 - CPU: 1 GHz or faster 64-bit processor
 - Display: 1440x900 or 1600x900
 - Display setting for text: 100% or less
 
-**Software**
+**Software Requirements**
 - Windows 8.1 and Windows Server 2012 R2 or later
 - .NET Framework 4.6.2
 - Internet Explorer 11 or later
 - Power BI Desktop
 
-**Data Skills** (in Excel)
-- Enter, edit, and format text and numbers
-- Format as table
-- Find and replace
-- Sort and filter data
-- Insert and format charts
+**Essential Data Skills in Excel**
+- Entering, editing, and formatting text and numbers
+- Formatting data as a table
+- Finding and replacing data
+- Sorting and filtering data
+- Inserting and formatting charts
+By mastering these basic Excel skills, you'll be better prepared to harness the full potential of Power BI and create powerful, insightful reports that drive meaningful decision-making within your organization.
