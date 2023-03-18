@@ -1,5 +1,13 @@
 # COMBINE, APPEND, AND MERGE DATA
 
+## :potted_plant:Overview:potted_plant:
+In this chapter, we'll dive into the powerful data shaping tools offered by Power BI Desktop, focusing on combining, appending, and merging data from multiple sources. We'll be working with a dataset containing information about countries and their populations, stored in the 'CountryPops.xlsx' Excel file. Our goal is to visualize our data on a continent-by-continent basis, but first, we need to prepare and combine the data in Power BI Desktop.
+
+The sections of this chapter will guide you through the process of preparing and combining multiple tables, appending data to queries, adding index columns, cleaning up data, relating tables in your model, hiding or displaying queries, and merging data in Power BI Desktop. Along the way, you'll learn about the M Language, which is the language behind the custom query formulas in Power BI.
+
+By the end of this chapter, you'll be well-equipped to handle complex data manipulation tasks and create sophisticated data models in Power BI Desktop. So let's dive in and start combining, appending, and merging data!
+
+---
 |Table of Sections|
 |---|
 |<ul><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter04/README.md#prep-to-combine-multiple-tables">Prep to combine multiple tables</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter04/README.md#append-data-to-a-query">Append data to a query</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter04/README.md#add-an-index-column">Add an index column</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter04/README.md#clean-up-data">Clean up data</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter04/README.md#relate-tables-in-your-model">Relate tables in your model</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter04/README.md#hide-or-display-queries">Hide or display Queries</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter04/README.md#merge-data">Merge data</a></li></ul>|
