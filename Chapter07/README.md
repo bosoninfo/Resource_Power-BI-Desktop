@@ -9,6 +9,7 @@ This chapter covers the following sections:
 3. Get a PBIX file from the Power BI Service
 4. Display Power BI content in Microsoft Teams
 5. Republish a dataset to the Power BI Service
+
 Throughout this chapter, you will learn different methods to share your Power BI reports, such as sharing through Microsoft Teams, distributing a PBIX file, uploading a file to the Power BI service, and using live connections. We will also discuss how to display Power BI content within Microsoft Teams and how to republish a dataset to the Power BI Service when updates are made.
 
 By the end of this chapter, you will have a comprehensive understanding of the various sharing options available in Power BI, enabling you to effectively communicate your insights and analyses with your colleagues and stakeholders.
