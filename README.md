@@ -8,6 +8,16 @@
 
 You may require subscription to LinkedIn Learning to be able to get access to the full course content.
 
+## Introduction to the Power BI Desktop Tutorial
+
+Welcome to this comprehensive Power BI Desktop tutorial, designed to help you learn and master the powerful capabilities of this versatile analytics tool. Based on the "Learning Power BI Desktop" course by Gini von Courter on LinkedIn Learning, this tutorial aims to reinforce your understanding of the material covered in the course and provide you with a handy reference for applying the concepts and techniques to your own projects.
+
+Throughout this tutorial, you'll learn how to connect to various data sources, transform and shape your data using the Power Query Editor, and create visually rich, interactive reports that effectively communicate insights. You'll also learn how to use filters, Q&A features, and share your work with others in your team or organization.
+
+This tutorial assumes you have basic knowledge of data management in Excel and familiarity with Windows operating systems. With the recommended hardware and software requirements in place, you'll be well on your way to harnessing the full power of Power BI Desktop.
+
+Dive into the chapters and files provided in the Table of Contents, and get ready to take your data analysis skills to new heights with Power BI Desktop. Good luck, and happy learning!
+
 ## Table of Contents & Files
 - Changing the data source for a PBIX file.pdf
 - [Chapter01 - Getting Started](https://github.com/HuaijiGao/Resourse_Power-BI-Desktop/tree/main/Chapter01)
