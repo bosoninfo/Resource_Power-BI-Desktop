@@ -3,6 +3,7 @@
 *:herb: Power BI is a self-service business intelligence solution.*
 
 *:herb: It is not optimized for large-scale business.*
+
 ---
 Welcome to Chapter 1 of our Power BI Desktop tutorial! In this chapter, we'll cover the basics of getting started with Power BI Desktop, a powerful, self-service business intelligence solution. While it may not be optimized for large-scale businesses, it offers a wide range of tools and features to help you create visually rich, interactive reports, and share your insights with your team.
 
@@ -13,6 +14,7 @@ Next, we'll guide you through the process of installing and launching Power BI D
 Once you're set up, we'll give you an overview of Power BI Desktop's user interface, exploring the various ribbons, views, and panes. This will help you get familiar with the environment as you learn to retrieve and model data, create visualizations and reports, and share your work with your team.
 
 By the end of this chapter, you'll have a solid foundation for working with Power BI Desktop and will be ready to dive deeper into its capabilities in the subsequent chapters. So, let's get started on your Power BI Desktop journey!
+
 ---
 
 |Table of Sections|
