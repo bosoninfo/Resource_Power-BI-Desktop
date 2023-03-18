@@ -1,5 +1,17 @@
 # GET DATA
 
+In this chapter, we'll delve into the process of getting data into Power BI Desktop from various sources. Data is the lifeblood of any business intelligence application, and Power BI Desktop offers a wide range of data connection options to meet your needs. Whether you're connecting to files, databases, web sources, SharePoint lists, or Microsoft Dataverse, this chapter will guide you through each step.
+
+We'll start by discussing the basics of Power BI data sources and how to navigate the available options. You'll learn how to connect to different types of files, such as Excel and CSV, and explore ways to connect to databases like SQL Server and Amazon Redshift. We'll also show you how to connect to web data sources and SharePoint lists, making sure you have all the information you need to access your organization's data.
+
+Next, we'll introduce you to Microsoft Dataverse, a powerful cloud-based data storage and management platform that integrates seamlessly with Power BI. You'll learn how to connect Power BI Desktop to Dataverse and understand the advantages of using it in your data management workflow.
+
+Furthermore, we'll discuss advanced data connection types like DirectQuery and live connections, and explain when and why you should use them. These connection types allow you to keep your data up-to-date and minimize the need for manual refreshes, ensuring that your reports and visualizations are always accurate and current.
+
+Lastly, we'll cover the process of opening and modifying existing Power BI files (PBIX) or Excel data models, as well as changing the data source for a PBIX file. This is particularly useful when you need to update the data source or path, or when transferring files between different users or systems.
+
+
+---
 |Table of Sections|
 |---|
 |<ul><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter02/README.md#power-bi-data-sources-the-basics">Power BI data sources: The basics</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter02/README.md#connect-to-a-file-excel">Connect to a file: Excel</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter02/README.md#connect-to-a-file-csv">Connect to a file: CSV</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter02/README.md#connect-to-database">Connect to database</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter02/README.md#connect-to-web-data-source">Connect to web data source</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter02/README.md#connect-to-a-sharepoint-list">Connect to a SharePoint list</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter02/README.md#connect-to-microsoft-dataverse">Connect to Microsoft Dataverse</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter02/README.md#power-bi-data-connections">Power BI Data Connections</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter02/README.md#open-a-pbix-file-or-excel-data-model">Open a PBIX file or Excel data model</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter02/README.md#change-the-data-source-for-a-pbix-file">Change the data source for a PBIX file</a></li></ul>|
