@@ -1,7 +1,6 @@
 # TRANSFORM DATA WITH THE POWER QUERY EDITOR
 
 ## :potted_plant:Overview:potted_plant:
-
 In this chapter, we will explore the Power Query Editor, a powerful tool in Power BI for cleaning and transforming data to suit our needs. We will cover how to use the Power Query Editor, reduce rows, filter, set data types, replace values, unpivot columns, and transform columns. By the end of this chapter, you will have a solid understanding of the Power Query Editor's capabilities and how to use it to streamline your data preparation process.
 
 Section 1: Use the Power Query Editor
