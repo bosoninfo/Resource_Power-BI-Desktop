@@ -14,6 +14,7 @@ Once you're set up, we'll give you an overview of Power BI Desktop's user interf
 
 By the end of this chapter, you'll have a solid foundation for working with Power BI Desktop and will be ready to dive deeper into its capabilities in the subsequent chapters. So, let's get started on your Power BI Desktop journey!
 
+
 |Table of Sections|
 |---|
 |<ul><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter01/README.md#power-bi-tools">Power BI tools</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter01/README.md#install-power-bi-desktop">Install Power BI Desktop</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter01/README.md#launch-power-bi-desktop">Launch Power BI Desktop</a></li></ul>|
