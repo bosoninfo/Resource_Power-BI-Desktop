@@ -8,46 +8,44 @@
 
 `Ribbon` -> `Home` -> `Get data` -> `More...`
 
-Power BI Service has access to a limited number of types of data connections. But Power BI Desktop is toally different. We have six primary data sources. You can always search a particular type of data you want to retrieve in the seraching box.
+Power BI Service offers access to a limited number of data connections. However, Power BI Desktop provides a wider range of options with six primary data sources. You can easily search for a specific data type to retrieve using the search box.
 
 **:arrow_forward: File**
 
-- Excel, Text/CSV, XML, SharePoint folder...
+- Examples: Excel, Text/CSV, XML, SharePoint folder, etc.
 
 **:arrow_forward: Database**
 
-- SQL Server, Access, Jethro (Beta), IBM Informix database (Beta)..., and some of theses are in beta
+- Examples: SQL Server, Access, Jethro (Beta), IBM Informix database (Beta), etc. Note that some of these are in beta.
 
 **:arrow_forward: Power Platform**
 
-- Power BI is part of the Microsoft's Power Platform, such as Power BI datasets, Power BI dataflows. 
+- Power BI is part of Microsoft's Power Platform, which includes Power BI datasets and Power BI dataflows.
 
-- Dataverse: the updated version of the Common Data Service (Legacy). 
-- It is used by all the tools in the Power Platform and other applications like Microsoft Teams.
+- **Dataverse**: This is the updated version of the Common Data Service (Legacy). It is used by all tools within the Power Platform and other applications like Microsoft Teams.
 
 **:arrow_forward: Azure**
 
-- Cloud services: Azure SQL Database
+- Examples: Cloud services like Azure SQL Database.
 
 **:arrow_forward: Online Services**
 
-- Microsoft SharePoint Online, Microsoft Exchange Online, Dynamics. 
-- Also including other SaaS connections, such as LinkedIn Sales Navigator, Marketo, Smartsheet, Intune Data Warehouse, Webtrends Analytics...
+- Examples: Microsoft SharePoint Online, Microsoft Exchange Online, Dynamics, LinkedIn Sales Navigator, Marketo, Smartsheet, Intune Data Warehouse, Webtrends Analytics, and other SaaS connections.
 
 **:arrow_forward: Other**
 
-- If the data source you are looking for is not in the list, choose Other. We have Web, SharePoint list, Microsoft Exchange. 
-- But, we also have the ability to retrieve data using OData feed, ODBC or OLE DB, which means we can connect to almost any data source even if there isn't a pre-built connection for it.
+If the data source you're looking for isn't listed, choose 'Other'. Examples include Web, SharePoint list, Microsoft Exchange, OData feed, ODBC, and OLE DB. This means you can connect to almost any data source, even if there isn't a pre-built connection for it.
 
-***When we choose a data source and click connect, what happens next is based on the data source type we chose to connect to.***
+***When you choose a data source and click 'Connect', the next steps depend on the type of data source you chose to connect to.***
 
 ## Connect to a file: Excel
 
 1. `Home` -> `Excel` -> `MedianAge.xlsx`
-2. Under `Suggested Tables`, choose `Countries`, (Optional: then click on `Transform Data`), then click on `Load`.
-3. In `Data View`, you can see the data there; In `Report View`, it is empty, but you can see the data in `Fields`.
-4. Save this for further work. `File` -> `Save as` -> `MedianAge.pbix`.
-5. Close Power BI Desktop.
+2. Under `Suggested Tables`, choose `Countries`, (Optional: then click on `Transform Data`)
+3. Click on `Load`.
+4. In `Data View`, you can see the data; In `Report View`, it is empty, but you can see the data in `Fields`.
+5. Save this for further work. `File` -> `Save as` -> `MedianAge.pbix`.
+6. Close Power BI Desktop.
 
 ## Connect to a file: CSV
 
@@ -58,10 +56,10 @@ Power BI Service has access to a limited number of types of data connections. Bu
    - `Data Type Detection` (if data type are self identified, you can choose `Based on first 200 rows`, otherwise you can decide the datatype by yourself later using `Do not detect data types`)
 3. Click on `Load`.
 4. Similarly, examine the data in `Data View` and `Report View`.
-5. For practice use, you don't need to save the file. You can just close Power BI Desktop and choose `Don't Save`.
+5. For practice use, you don't need to save the file. Close Power BI Desktop and choose `Don't Save`.
 
 ## Connect to database
-Most exterprise data is kept in a database. Here is an example.
+Most enterprise data is stored in databases. Here's an example:
 
 - `Home` -> `Get data` -> `More...` -> `Database` -> `SQL Sever database` -> `Connect`
 - Fill out `Server`, `Database (optional)` and Advanced options. You can ask for those information from the database administrator (DBA). 
@@ -73,7 +71,7 @@ Another example,
 - The view looks similar, but the `Database` is not optional.
 - Under Advanced Options, you have `Role` and `Batch Size`.
 
-So, the general process will be:
+***So, the general process for connecting to a database in Power BI Desktop will be:***
 1. Go to `Get data`
 2. Select the type of database
 3. Determine what information you need from your DBA
