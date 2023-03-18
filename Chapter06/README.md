@@ -1,5 +1,19 @@
 # USE FILTERS AND Q&A IN A REPORT
 
+## :potted_plant:Overview:potted_plant:
+In the previous chapters, we delved into creating and customizing visualizations to build informative and visually appealing reports. In Chapter 06, we will introduce the use of filters and Q&A features to make your reports more interactive and dynamic. Filters allow you to narrow down the data presented in your visuals, providing a focused view on specific aspects of your data. The Q&A feature enables users to ask questions using natural language and receive answers in the form of visualizations, making it easier to extract insights from your data.
+
+This chapter covers the following sections:
+1. Using slicers to filter visuals
+2. Filtering reports and pages
+3. Adding search capabilities with a Q&A visualization
+4. Adding suggestions to a Q&A visualization
+
+Throughout this chapter, we will explore how to use slicers, filters, and Q&A visualizations to make your reports more interactive and user-friendly. You will learn how to create slicers, apply filters to your reports and pages, and leverage the Q&A feature to answer questions using natural language. Additionally, we will discuss how to add suggestions to a Q&A visualization, ensuring that users can easily find the information they are looking for.
+
+By the end of this chapter, you will have a thorough understanding of how to utilize filters and Q&A features to enhance your Power BI reports, providing a more engaging and informative experience for your users. So, let's dive in and start exploring these powerful tools!
+
+---
 |Table of Sections|
 |---|
 |<ul><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter06/README.md#use-slicers-to-filter-visuals">Use slicers to filter visuals</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter06/README.md#filter-reports-and-pages">Filter reports and pages</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter06/README.md#add-search-capabilities-with-a-qa-visualization">Add search capabilities with a Q&A visualization</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter06/README.md#add-suggestions-to-a-qa-visualizaiton">Add suggestions to a Q&A visualizaiton</a></li></ul>|
