@@ -1,6 +1,6 @@
 # GET DATA
 
-## :potted_plant:Introductory:potted_plant:
+## :potted_plant:Abstract:potted_plant:
 In this chapter, we'll delve into the process of getting data into Power BI Desktop from various sources. Data is the lifeblood of any business intelligence application, and Power BI Desktop offers a wide range of data connection options to meet your needs. Whether you're connecting to files, databases, web sources, SharePoint lists, or Microsoft Dataverse, this chapter will guide you through each step.
 
 We'll start by discussing the basics of Power BI data sources and how to navigate the available options. You'll learn how to connect to different types of files, such as Excel and CSV, and explore ways to connect to databases like SQL Server and Amazon Redshift. We'll also show you how to connect to web data sources and SharePoint lists, making sure you have all the information you need to access your organization's data.
