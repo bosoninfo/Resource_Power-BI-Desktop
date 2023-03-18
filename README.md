@@ -68,4 +68,5 @@ For almost a decade, Microsoft has maintained its prominence in analytics and bu
 - Finding and replacing data
 - Sorting and filtering data
 - Inserting and formatting charts
+
 By mastering these basic Excel skills, you'll be better prepared to harness the full potential of Power BI and create powerful, insightful reports that drive meaningful decision-making within your organization.
