@@ -1,5 +1,18 @@
 # CREATE REPORTS AND VISUALIZATIONS
 
+## :potted_plant:Overview:potted_plant:
+In Chapter 04, we successfully built our data model. While this may be the endpoint for data modelers and designers, it is essential for us to move forward and practice creating visualizations. In this chapter, we will explore the 'Report View' in Power BI Desktop and learn how to create various visualizations, format them, apply themes and styles, and use conditional formatting. We will also dive into creating text visuals, such as cards, tables, and matrices, and formatting their titles to make our reports more readable and aesthetically pleasing.
+
+This chapter will guide you through the following sections:
+1. Using the Power BI Desktop report view
+2. Formatting visualizations and applying themes
+3. Creating text visuals: Cards, table and matrix
+4. Applying preset styles and conditional formatting
+5. Applying formatting to titles
+
+By the end of this chapter, you will have a good understanding of how to create and customize different visualizations, making your reports more visually engaging and informative. From starting with fields and visualizations to using preset styles and conditional formatting, you will have the tools necessary to create dynamic, eye-catching reports in Power BI Desktop. So, let's begin by switching to the 'Report View' and exploring the world of visualizations!
+
+---
 |Table of Sections|
 |---|
 |<ul><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter05/README.md#use-the-power-bi-desktop-report-view">Use the Power BI Desktop report view</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter05/README.md#format-visualizations-and-apply-themes">Format visualizations and apply themes</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter05/README.md#create-text-visuals-cards-table-and-matrix">Create text visuals: Cards, table and matrix</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter05/README.md#apply-preset-styles-and-conditional-formatting">Apply preset styles and conditional formatting</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter05/README.md#apply-formatting-to-titles">Apply formatting to titles</a></li></ul>|
