@@ -14,18 +14,18 @@
 - Power BI Desktop
 - Power BI for mobile
 - Power BI developer tools
-- Power BI service: powerbi.com (:heart: the heart of Power BI)
+- Power BI service: powerbi.com - :heart: the heart of Power BI
 
 | ![image](https://user-images.githubusercontent.com/19381768/224846356-3192a266-02f2-4f41-ba58-76dbf57b6186.png) |
 | :--: | 
-| *data communicate between power bi desktop and power bi* |
+| *Data communication between Power BI Desktop and Power BI Service* |
 
 ### Power BI Services
 - Direct interactive data connections
 - Explore data with natural language
 - View dashboards on mobile devices
 - Use specialized templates for SaaS solutions
-*Power BI Service dose not have robust data modeling using the drag-and-drop feature*
+*Note: Power BI Service does not offer robust data modeling using drag-and-drop features.*
 
 ### Power BI Licensing
 - Power BI (free)
@@ -42,7 +42,7 @@
 
 ### <a id="mylink"></a>Power BI Desktop
 Free download and support only for Windows. [:link: click here](https://www.microsoft.com/en-us/download/details.aspx?id=58494")
-- Get data
+- Retrieve data
 - Model data
 - Create visualizations and reports
 - Share with your team
