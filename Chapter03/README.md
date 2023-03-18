@@ -1,5 +1,27 @@
 # TRANSFORM DATA WITH THE POWER QUERY EDITOR
 
+## :potted_plant:Overview:potted_plant:
+
+In this chapter, we will explore the Power Query Editor, a powerful tool in Power BI for cleaning and transforming data to suit our needs. We will cover how to use the Power Query Editor, reduce rows, filter, set data types, replace values, unpivot columns, and transform columns. By the end of this chapter, you will have a solid understanding of the Power Query Editor's capabilities and how to use it to streamline your data preparation process.
+
+Section 1: Use the Power Query Editor
+We'll begin by learning how to access the Power Query Editor and navigate its various features. We will also discuss the importance of setting properties and the applied steps pane.
+
+Section 2: Reduce Rows
+In this section, we will explore techniques for reducing the number of rows in our dataset, such as sorting, filtering, and removing errors.
+
+Section 3: Filter, Set Data Type, Replace Values
+Here, we will dive into the process of filtering data, setting data types, and replacing values in our dataset. We will work with an example using historical census data.
+
+Section 4: Unpivot Columns
+Occasionally, we might need to unpivot data from a pivot table format to a more suitable format for visualization. We will learn how to do this using the Power Query Editor.
+
+Section 5: Transform Columns
+Finally, we will explore the various transformation options available for text, number, and date & time columns in the Power Query Editor. This will help you make the most of your data and prepare it for insightful visualizations.
+
+By the end of this chapter, you will have a strong foundation in using the Power Query Editor to clean and transform data, making it easier to create powerful visualizations and gain valuable insights from your data.
+
+---
 |Table of Sections|
 |---|
 |<ul><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter03/README.md#use-the-power-query-editor">Use the Power Query Editor</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter03/README.md#reduce-rows">Reduce rows</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter03/README.md#filter-set-data-type-replace-values">Filter, set data type, replace values</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter03/README.md#unpivot-columns">Unpivot columns</a></li><li><a href="https://github.com/JefoGao/Resourse_Power-BI-Desktop/blob/main/Chapter03/README.md#transform-columns">Transform columns</a></li></ul>|
