@@ -1,5 +1,7 @@
 # Resourse_Learn-Power-BI-Desktop
 
+![image](https://user-images.githubusercontent.com/19381768/226330782-03cff624-36b3-43e1-850b-f0f888a57a66.png)
+
 ***:rotating_light::rotating_light::rotating_light:Disclaimer:rotating_light::rotating_light::rotating_light:***
 
 ***This tutorial is based on the "Learning Power BI Desktop" course taught by Gini von Courter in LinkedIn Learning. All course content, including videos, exercises, and examples, are the property of their respective owners. This tutorial is intended as a learning resource for learners who are completing or have completed the course and wish to reinforce their understanding of the material covered.***
@@ -7,10 +9,6 @@
 [:link: Click here for redirecting to the course.](https://www.linkedin.com/learning/learning-power-bi-desktop-16568640/model-and-visualize-your-data-with-power-bi-desktop?autoplay=true&resume=false&u=74654250) 
 
 You may require subscription to LinkedIn Learning to be able to get access to the full course content.
-
-|![image](https://user-images.githubusercontent.com/19381768/226108883-10001e97-ab0a-44eb-9c7b-31f0a9c42e32.png)|
-|:--:|
-|Power BI Desktop|
 
 ## Introduction to the Power BI Desktop Tutorial
 
@@ -21,6 +19,10 @@ Throughout this tutorial, you'll learn how to connect to various data sources, t
 This tutorial assumes you have basic knowledge of data management in Excel and familiarity with Windows operating systems. With the recommended hardware and software requirements in place, you'll be well on your way to harnessing the full power of Power BI Desktop.
 
 Dive into the chapters and files provided in the Table of Contents, and get ready to take your data analysis skills to new heights with Power BI Desktop. Good luck, and happy learning!
+
+|![image](https://user-images.githubusercontent.com/19381768/226108883-10001e97-ab0a-44eb-9c7b-31f0a9c42e32.png)|
+|:--:|
+|Power BI Desktop|
 
 ## Table of Contents & Files
 - Changing the data source for a PBIX file.pdf
